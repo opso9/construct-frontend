@@ -6,6 +6,18 @@
   <title>Bauprojekt-Intelligence NRW</title>
   <meta name="description" content="Aktuelle Bauprojekte und Ausschreibungen in NRW — frühzeitig für Handwerksbetriebe.">
   <link rel="stylesheet" href="css/main.css">
+<style>
+.filter-btn.gewerk { border-color: rgba(192,132,252,.3); }
+.filter-btn.gewerk:hover, .filter-btn.gewerk.active {
+  background: #c084fc; color: var(--bg); border-color: #c084fc;
+}
+.badge-new {
+  display: inline-block; background: #22d3ee; color: #0d1b2a;
+  font-size: 1rem; font-weight: 800; padding: .1rem .6rem;
+  border-radius: 3px; text-transform: uppercase; letter-spacing: .05em;
+  margin-left: .5rem; vertical-align: middle;
+}
+</style>
 </head>
 <body>
 
@@ -74,13 +86,13 @@
 <button class="filter-btn" data-filter="region" data-value="Wuppertal">Wuppertal</button>
   </div>
   <div class="filters" style="margin-bottom:3rem">
-    <button class="filter-btn active" data-filter="gewerk" data-value="">Alle Gewerke</button>
-<button class="filter-btn" data-filter="gewerk" data-value="bau_allgemein">Bau</button>
-<button class="filter-btn" data-filter="gewerk" data-value="elektro">Elektro</button>
-<button class="filter-btn" data-filter="gewerk" data-value="hochbau">hochbau</button>
-<button class="filter-btn" data-filter="gewerk" data-value="sanitaer">Sanitär</button>
-<button class="filter-btn" data-filter="gewerk" data-value="tiefbau">Tiefbau</button>
-<button class="filter-btn" data-filter="gewerk" data-value="trockenbau">Trockenbau</button>
+    <button class="filter-btn gewerk active" data-filter="gewerk" data-value="">Alle Gewerke</button>
+<button class="filter-btn gewerk" data-filter="gewerk" data-value="bau_allgemein">Bau</button>
+<button class="filter-btn gewerk" data-filter="gewerk" data-value="elektro">Elektro</button>
+<button class="filter-btn gewerk" data-filter="gewerk" data-value="hochbau">hochbau</button>
+<button class="filter-btn gewerk" data-filter="gewerk" data-value="sanitaer">Sanitär</button>
+<button class="filter-btn gewerk" data-filter="gewerk" data-value="tiefbau">Tiefbau</button>
+<button class="filter-btn gewerk" data-filter="gewerk" data-value="trockenbau">Trockenbau</button>
   </div>
 
   <div class="grid">
@@ -94,7 +106,7 @@
     <span class="tag tag--gewerk">Trockenbau</span>
     <span class="score score--low" title="Relevanz-Score">4</span>
   </div>
-  <div class="card__title"><a href="https://www.evergabe.nrw.de/VMPSatellite/notice/CXPNYB0DV3J/documents" target="_blank" rel="noopener">Umsetzung von &quot;Potenziale entdecken&quot; für SuS ab der Jahrgangsstufe 8 aus allgemeinbildenden Schulen inkl. der Förderschulen LE, ESE, SQ und HuK in NRW im Schuljahr 2026/2027</a></div>
+  <div class="card__title"><a href="https://www.evergabe.nrw.de/VMPSatellite/notice/CXPNYB0DV3J/documents" target="_blank" rel="noopener">Umsetzung von &quot;Potenziale entdecken&quot; für SuS ab der Jahrgangsstufe 8 aus allgemeinbildenden Schulen inkl. der Förderschulen LE, ESE, SQ und HuK in NRW im Schuljahr 2026/2027</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -107,7 +119,7 @@
     
     <span class="score score--low" title="Relevanz-Score">24</span>
   </div>
-  <div class="card__title"><a href="http://www.ukbonn.de" target="_blank" rel="noopener">Upgrade//Reparatur ePA-Wagen</a></div>
+  <div class="card__title"><a href="http://www.ukbonn.de" target="_blank" rel="noopener">Upgrade//Reparatur ePA-Wagen</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -120,7 +132,7 @@
     <span class="tag tag--gewerk">Bau</span>
     <span class="score score--high" title="Relevanz-Score">78</span>
   </div>
-  <div class="card__title"><a href="https://www.evergabe.nrw.de/VMPSatellite/notice/CXPNY5YDV7N/documents" target="_blank" rel="noopener">Trainingszentrum HET III - Tiefbau / Infrastrukturelle Maßnahmen</a></div>
+  <div class="card__title"><a href="https://www.evergabe.nrw.de/VMPSatellite/notice/CXPNY5YDV7N/documents" target="_blank" rel="noopener">Trainingszentrum HET III - Tiefbau / Infrastrukturelle Maßnahmen</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -133,7 +145,7 @@
     <span class="tag tag--gewerk">Trockenbau</span>
     <span class="score score--low" title="Relevanz-Score">4</span>
   </div>
-  <div class="card__title"><a href="https://www.evergabe.nrw.de/VMPSatellite/notice/CXPNYB0DV3X/documents" target="_blank" rel="noopener">Umsetzung von &quot;Potenziale entdecken&quot; für SuS ab der Jahrgangsstufe 8 an Förderschulen mit den Förderschwerpunkten GG und KME in NRW im Schuljahr 2026/2027</a></div>
+  <div class="card__title"><a href="https://www.evergabe.nrw.de/VMPSatellite/notice/CXPNYB0DV3X/documents" target="_blank" rel="noopener">Umsetzung von &quot;Potenziale entdecken&quot; für SuS ab der Jahrgangsstufe 8 an Förderschulen mit den Förderschwerpunkten GG und KME in NRW im Schuljahr 2026/2027</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -146,7 +158,7 @@
     
     <span class="score score--low" title="Relevanz-Score">4</span>
   </div>
-  <div class="card__title"><a href="http://www.wald-und-holz.nrw.de" target="_blank" rel="noopener">Rahmenvereinbarung über die Grundbetreuung sowie die betriebsspezifische Betreuung der Arbeitsmedizin beim Landesbetrieb Wald und Holz Nordrhein-Westfalen</a></div>
+  <div class="card__title"><a href="http://www.wald-und-holz.nrw.de" target="_blank" rel="noopener">Rahmenvereinbarung über die Grundbetreuung sowie die betriebsspezifische Betreuung der Arbeitsmedizin beim Landesbetrieb Wald und Holz Nordrhein-Westfalen</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -159,7 +171,7 @@
     <span class="tag tag--gewerk">Bau</span>
     <span class="score score--high" title="Relevanz-Score">70</span>
   </div>
-  <div class="card__title"><a href="https://www.ukaachen.de" target="_blank" rel="noopener">EOP IPA-Paket Nr. 3: Rohbau erweitert</a></div>
+  <div class="card__title"><a href="https://www.ukaachen.de" target="_blank" rel="noopener">EOP IPA-Paket Nr. 3: Rohbau erweitert</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -172,7 +184,7 @@
     
     <span class="score score--low" title="Relevanz-Score">4</span>
   </div>
-  <div class="card__title"><a href="http://www.uni-bonn.de/" target="_blank" rel="noopener">Rahmenvertrag Grünpflegeleistungen</a></div>
+  <div class="card__title"><a href="http://www.uni-bonn.de/" target="_blank" rel="noopener">Rahmenvertrag Grünpflegeleistungen</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -185,7 +197,7 @@
     <span class="tag tag--gewerk">Bau</span>
     <span class="score score--mid" title="Relevanz-Score">60</span>
   </div>
-  <div class="card__title"><a href="https://www.evergabe.nrw.de/VMPSatellite/notice/CXPNY5YDVGB/documents" target="_blank" rel="noopener">Gesamtsanierung Dermatologie Geb. A11 1.BA -Tischlerarbeiten BT 1-3 / EG / 1.OG -</a></div>
+  <div class="card__title"><a href="https://www.evergabe.nrw.de/VMPSatellite/notice/CXPNY5YDVGB/documents" target="_blank" rel="noopener">Gesamtsanierung Dermatologie Geb. A11 1.BA -Tischlerarbeiten BT 1-3 / EG / 1.OG -</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -198,7 +210,7 @@
     
     <span class="score score--low" title="Relevanz-Score">4</span>
   </div>
-  <div class="card__title"><a href="http://www3.uni-bonn.de/" target="_blank" rel="noopener">Lizenzverlängerung Atlasian Tools</a></div>
+  <div class="card__title"><a href="http://www3.uni-bonn.de/" target="_blank" rel="noopener">Lizenzverlängerung Atlasian Tools</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -211,7 +223,7 @@
     
     <span class="score score--low" title="Relevanz-Score">0</span>
   </div>
-  <div class="card__title"><a href="http://www.ukbonn.de" target="_blank" rel="noopener">Rahmenvertrag für einen Forschungsdienstleistungsauftrag zur Messung von hochauflösenden lipidomischen Profilen aus 3.000 Plasmaproben von ProbandInnen der MACS Studie</a></div>
+  <div class="card__title"><a href="http://www.ukbonn.de" target="_blank" rel="noopener">Rahmenvertrag für einen Forschungsdienstleistungsauftrag zur Messung von hochauflösenden lipidomischen Profilen aus 3.000 Plasmaproben von ProbandInnen der MACS Studie</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -224,7 +236,7 @@
     
     <span class="score score--low" title="Relevanz-Score">4</span>
   </div>
-  <div class="card__title"><a href="http://www.uni-bonn.de/" target="_blank" rel="noopener">Schmalbandiges Lasersystem (Narrow-linewidth laser systems)</a></div>
+  <div class="card__title"><a href="http://www.uni-bonn.de/" target="_blank" rel="noopener">Schmalbandiges Lasersystem (Narrow-linewidth laser systems)</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -237,7 +249,7 @@
     
     <span class="score score--low" title="Relevanz-Score">4</span>
   </div>
-  <div class="card__title"><a href="https://www.uni-bonn.de" target="_blank" rel="noopener">Rahmenvertrag für Dell Clientgeräte und Monitore</a></div>
+  <div class="card__title"><a href="https://www.uni-bonn.de" target="_blank" rel="noopener">Rahmenvertrag für Dell Clientgeräte und Monitore</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -250,7 +262,7 @@
     <span class="tag tag--gewerk">Bau</span>
     <span class="score score--mid" title="Relevanz-Score">58</span>
   </div>
-  <div class="card__title"><a href="https://www.evergabe.nrw.de/VMPSatellite/notice/CXPNY5YDVU7/documents" target="_blank" rel="noopener">Restrukturierung Neuroradiologie - Niederspannungsanlage</a></div>
+  <div class="card__title"><a href="https://www.evergabe.nrw.de/VMPSatellite/notice/CXPNY5YDVU7/documents" target="_blank" rel="noopener">Restrukturierung Neuroradiologie - Niederspannungsanlage</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -263,7 +275,7 @@
     <span class="tag tag--gewerk">Elektro</span>
     <span class="score score--low" title="Relevanz-Score">14</span>
   </div>
-  <div class="card__title"><a href="http://www.ukbonn.de" target="_blank" rel="noopener">Rahmenvertrag über einen Forschungsdienstleistungsauftrag Effiziente Hochdurchsatzmessung der elektrophysiologischen Aktivität therapeutisch relevanter Natriumionenkanäle</a></div>
+  <div class="card__title"><a href="http://www.ukbonn.de" target="_blank" rel="noopener">Rahmenvertrag über einen Forschungsdienstleistungsauftrag Effiziente Hochdurchsatzmessung der elektrophysiologischen Aktivität therapeutisch relevanter Natriumionenkanäle</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -276,7 +288,7 @@
     <span class="tag tag--gewerk">Bau</span>
     <span class="score score--high" title="Relevanz-Score">70</span>
   </div>
-  <div class="card__title"><a href="https://www.ukaachen.de" target="_blank" rel="noopener">EOP IPA-Paket Nr. 4: Innenausbau</a></div>
+  <div class="card__title"><a href="https://www.ukaachen.de" target="_blank" rel="noopener">EOP IPA-Paket Nr. 4: Innenausbau</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -289,7 +301,7 @@
     
     <span class="score score--low" title="Relevanz-Score">0</span>
   </div>
-  <div class="card__title"><a href="http://www.polizei.nrw.de/lzpd" target="_blank" rel="noopener">Abschluss von Rahmenvereinbarungen zur Durchführung von chemisch-toxikologischen Untersuchungen und forensischen Begutachtungen von Blut- und Urinproben für die Polizei NRW</a></div>
+  <div class="card__title"><a href="http://www.polizei.nrw.de/lzpd" target="_blank" rel="noopener">Abschluss von Rahmenvereinbarungen zur Durchführung von chemisch-toxikologischen Untersuchungen und forensischen Begutachtungen von Blut- und Urinproben für die Polizei NRW</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -302,7 +314,7 @@
     
     <span class="score score--low" title="Relevanz-Score">4</span>
   </div>
-  <div class="card__title"><a href="http://www.rwth-aachen.de" target="_blank" rel="noopener">Ertüchtigung Hitachi-Infrastruktur</a></div>
+  <div class="card__title"><a href="http://www.rwth-aachen.de" target="_blank" rel="noopener">Ertüchtigung Hitachi-Infrastruktur</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -315,7 +327,7 @@
     <span class="tag tag--gewerk">Trockenbau</span>
     <span class="score score--low" title="Relevanz-Score">4</span>
   </div>
-  <div class="card__title"><a href="https://www.evergabe.nrw.de/VMPSatellite/notice/CXPNYB0DV33/documents" target="_blank" rel="noopener">Umsetzung von &quot;Potenziale entdecken&quot; für SuS ab der Jahrgangsstufe 8 an Förderschulen mit dem Förderschwerpunkt Sehen in NRW im Schuljahr 2026/2027</a></div>
+  <div class="card__title"><a href="https://www.evergabe.nrw.de/VMPSatellite/notice/CXPNYB0DV33/documents" target="_blank" rel="noopener">Umsetzung von &quot;Potenziale entdecken&quot; für SuS ab der Jahrgangsstufe 8 an Förderschulen mit dem Förderschwerpunkt Sehen in NRW im Schuljahr 2026/2027</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -328,7 +340,7 @@
     <span class="tag tag--gewerk">Bau</span>
     <span class="score score--mid" title="Relevanz-Score">54</span>
   </div>
-  <div class="card__title">Neuanmietung Polizeiwache in den Stadtteilen Weiden, Lövenich, Junkersdorf oder Müngersdorf</div>
+  <div class="card__title">Neuanmietung Polizeiwache in den Stadtteilen Weiden, Lövenich, Junkersdorf oder Müngersdorf<span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -341,7 +353,7 @@
     
     <span class="score score--low" title="Relevanz-Score">24</span>
   </div>
-  <div class="card__title"><a href="https://www.polizei.nrw.de/duesseldorf" target="_blank" rel="noopener">Abschleppleistungen und Sicherstellungen von Fahrzeugen für das Polizeipräsidium Düsseldorf (nur Lose 4, 5, 6)</a></div>
+  <div class="card__title"><a href="https://www.polizei.nrw.de/duesseldorf" target="_blank" rel="noopener">Abschleppleistungen und Sicherstellungen von Fahrzeugen für das Polizeipräsidium Düsseldorf (nur Lose 4, 5, 6)</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -354,7 +366,7 @@
     
     <span class="score score--low" title="Relevanz-Score">30</span>
   </div>
-  <div class="card__title"><a href="https://www.baulandleben.nrw/starke-projekte" target="_blank" rel="noopener">Erkelenz, Fünf Dörfer, Machbarkeitsstudie sakrale Bauten</a></div>
+  <div class="card__title"><a href="https://www.baulandleben.nrw/starke-projekte" target="_blank" rel="noopener">Erkelenz, Fünf Dörfer, Machbarkeitsstudie sakrale Bauten</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -367,7 +379,7 @@
     <span class="tag tag--gewerk">Bau</span>
     <span class="score score--mid" title="Relevanz-Score">50</span>
   </div>
-  <div class="card__title"><a href="https://www.bezreg-muenster.de/de/wirtschaft_finanzen_kommunalaufsicht/vergabekammer_westfalen/index.html" target="_blank" rel="noopener">Waltrop, Im Dicken Dören; Errichtung einer Lichtsignalanlage</a></div>
+  <div class="card__title"><a href="https://www.bezreg-muenster.de/de/wirtschaft_finanzen_kommunalaufsicht/vergabekammer_westfalen/index.html" target="_blank" rel="noopener">Waltrop, Im Dicken Dören; Errichtung einer Lichtsignalanlage</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -380,7 +392,7 @@
     
     <span class="score score--low" title="Relevanz-Score">4</span>
   </div>
-  <div class="card__title"><a href="https://www.finanzverwaltung.nrw.de" target="_blank" rel="noopener">Briefdienstleistungen 10 Finanzämter der Region Düsseldorf, LR 40</a></div>
+  <div class="card__title"><a href="https://www.finanzverwaltung.nrw.de" target="_blank" rel="noopener">Briefdienstleistungen 10 Finanzämter der Region Düsseldorf, LR 40</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -393,7 +405,7 @@
     
     <span class="score score--low" title="Relevanz-Score">0</span>
   </div>
-  <div class="card__title">Informationssicherheitsmanagement</div>
+  <div class="card__title">Informationssicherheitsmanagement<span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -406,7 +418,7 @@
     
     <span class="score score--low" title="Relevanz-Score">4</span>
   </div>
-  <div class="card__title"><a href="https://www.it.nrw/" target="_blank" rel="noopener">RV Unterstützungs-/Dienstleistungen für Client-Management und Veranstaltungsbetreuung</a></div>
+  <div class="card__title"><a href="https://www.it.nrw/" target="_blank" rel="noopener">RV Unterstützungs-/Dienstleistungen für Client-Management und Veranstaltungsbetreuung</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -419,7 +431,7 @@
     <span class="tag tag--gewerk">Bau</span>
     <span class="score score--high" title="Relevanz-Score">70</span>
   </div>
-  <div class="card__title"><a href="https://www.uniklinik-duesseldorf.de/" target="_blank" rel="noopener">Fassadenarbeiten - Sanierung MNR-Klinik</a></div>
+  <div class="card__title"><a href="https://www.uniklinik-duesseldorf.de/" target="_blank" rel="noopener">Fassadenarbeiten - Sanierung MNR-Klinik</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -432,7 +444,7 @@
     <span class="tag tag--gewerk">Bau</span>
     <span class="score score--mid" title="Relevanz-Score">50</span>
   </div>
-  <div class="card__title"><a href="https://www.bezreg-koeln.nrw.de/themen/wirtschaft-und-kultur/vergabekammer-rheinland" target="_blank" rel="noopener">Krefeld, Krützboomweg; Erschließung</a></div>
+  <div class="card__title"><a href="https://www.bezreg-koeln.nrw.de/themen/wirtschaft-und-kultur/vergabekammer-rheinland" target="_blank" rel="noopener">Krefeld, Krützboomweg; Erschließung</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -445,7 +457,7 @@
     <span class="tag tag--gewerk">Bau</span>
     <span class="score score--mid" title="Relevanz-Score">60</span>
   </div>
-  <div class="card__title"><a href="https://www.uniklinik-duesseldorf.de/" target="_blank" rel="noopener">Malerarbeiten</a></div>
+  <div class="card__title"><a href="https://www.uniklinik-duesseldorf.de/" target="_blank" rel="noopener">Malerarbeiten</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -458,7 +470,7 @@
     <span class="tag tag--gewerk">hochbau</span>
     <span class="score score--low" title="Relevanz-Score">20</span>
   </div>
-  <div class="card__title"><a href="https://www.uniklinik-duesseldorf.de/" target="_blank" rel="noopener">Patientenmonitore - Neubau CARDDIAB</a></div>
+  <div class="card__title"><a href="https://www.uniklinik-duesseldorf.de/" target="_blank" rel="noopener">Patientenmonitore - Neubau CARDDIAB</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -471,7 +483,7 @@
     <span class="tag tag--gewerk">Bau</span>
     <span class="score score--mid" title="Relevanz-Score">50</span>
   </div>
-  <div class="card__title"><a href="https://www.nrwbank.de" target="_blank" rel="noopener">VE_009_Zentrallogistik</a></div>
+  <div class="card__title"><a href="https://www.nrwbank.de" target="_blank" rel="noopener">VE_009_Zentrallogistik</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -484,7 +496,7 @@
     
     <span class="score score--low" title="Relevanz-Score">20</span>
   </div>
-  <div class="card__title"><a href="https://www.bezreg-koeln.nrw.de/themen/wirtschaft-und-kultur/vergabekammer-rheinland" target="_blank" rel="noopener">Go4Gewerbe - Mönchengladbach Trabrennbahn</a></div>
+  <div class="card__title"><a href="https://www.bezreg-koeln.nrw.de/themen/wirtschaft-und-kultur/vergabekammer-rheinland" target="_blank" rel="noopener">Go4Gewerbe - Mönchengladbach Trabrennbahn</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -497,7 +509,7 @@
     
     <span class="score score--low" title="Relevanz-Score">0</span>
   </div>
-  <div class="card__title"><a href="https://www.uniklinik-duesseldorf.de/" target="_blank" rel="noopener">Unterhaltsreinigung</a></div>
+  <div class="card__title"><a href="https://www.uniklinik-duesseldorf.de/" target="_blank" rel="noopener">Unterhaltsreinigung</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -510,7 +522,7 @@
     
     <span class="score score--low" title="Relevanz-Score">4</span>
   </div>
-  <div class="card__title"><a href="http://www.brd.nrw.de" target="_blank" rel="noopener">Verpflegungsdienstleistung für die Containersiedlung Krefeld-Forstwald</a></div>
+  <div class="card__title"><a href="http://www.brd.nrw.de" target="_blank" rel="noopener">Verpflegungsdienstleistung für die Containersiedlung Krefeld-Forstwald</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -523,7 +535,7 @@
     
     <span class="score score--low" title="Relevanz-Score">24</span>
   </div>
-  <div class="card__title"><a href="https://www.polizei.nrw.de/duesseldorf" target="_blank" rel="noopener">Reparatur von VW und Audi PKW und VW Nutzfahrzeugen der Polizei sowie die Lieferung von originalen Kraftfahrzeugersatzteilen und Zubehör für VW und Audi PKW und VW Nutzfahrzeugen</a></div>
+  <div class="card__title"><a href="https://www.polizei.nrw.de/duesseldorf" target="_blank" rel="noopener">Reparatur von VW und Audi PKW und VW Nutzfahrzeugen der Polizei sowie die Lieferung von originalen Kraftfahrzeugersatzteilen und Zubehör für VW und Audi PKW und VW Nutzfahrzeugen</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -536,7 +548,7 @@
     
     <span class="score score--low" title="Relevanz-Score">0</span>
   </div>
-  <div class="card__title">Unterstützungsleistungen im Informationssicherheitsmanagement</div>
+  <div class="card__title">Unterstützungsleistungen im Informationssicherheitsmanagement<span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -549,7 +561,7 @@
     
     <span class="score score--low" title="Relevanz-Score">20</span>
   </div>
-  <div class="card__title"><a href="https://www.bezreg-koeln.nrw.de/themen/wirtschaft-und-kultur/vergabekammer-rheinland" target="_blank" rel="noopener">Go4Gewerbe, Elsdorf GE-Nord - Geruchstechnische Untersuchung</a></div>
+  <div class="card__title"><a href="https://www.bezreg-koeln.nrw.de/themen/wirtschaft-und-kultur/vergabekammer-rheinland" target="_blank" rel="noopener">Go4Gewerbe, Elsdorf GE-Nord - Geruchstechnische Untersuchung</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -562,7 +574,7 @@
     <span class="tag tag--gewerk">Bau</span>
     <span class="score score--mid" title="Relevanz-Score">54</span>
   </div>
-  <div class="card__title"><a href="https://www.evergabe.nrw.de/VMPSatellite/notice/CXPNY6ADPR6/documents" target="_blank" rel="noopener">Neuss, Grünachse Hammfeld</a></div>
+  <div class="card__title"><a href="https://www.evergabe.nrw.de/VMPSatellite/notice/CXPNY6ADPR6/documents" target="_blank" rel="noopener">Neuss, Grünachse Hammfeld</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -575,7 +587,7 @@
     
     <span class="score score--low" title="Relevanz-Score">20</span>
   </div>
-  <div class="card__title"><a href="https://www.uniklinik-duesseldorf.de/" target="_blank" rel="noopener">Tierhaltungsausstattung</a></div>
+  <div class="card__title"><a href="https://www.uniklinik-duesseldorf.de/" target="_blank" rel="noopener">Tierhaltungsausstattung</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -588,7 +600,7 @@
     <span class="tag tag--gewerk">Bau</span>
     <span class="score score--mid" title="Relevanz-Score">60</span>
   </div>
-  <div class="card__title"><a href="https://www.uniklinik-duesseldorf.de/" target="_blank" rel="noopener">Prozesskälteanlage - Sanierung Zentralküche</a></div>
+  <div class="card__title"><a href="https://www.uniklinik-duesseldorf.de/" target="_blank" rel="noopener">Prozesskälteanlage - Sanierung Zentralküche</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -601,7 +613,7 @@
     
     <span class="score score--low" title="Relevanz-Score">4</span>
   </div>
-  <div class="card__title"><a href="https://www.evergabe.nrw.de/VMPSatellite/notice/CXPNYBCDVQQ/documents" target="_blank" rel="noopener">IT-Supportleistungen für die Unfallkasse Nordrhein-Westfalen an den Standorten Münster und Düsseldorf</a></div>
+  <div class="card__title"><a href="https://www.evergabe.nrw.de/VMPSatellite/notice/CXPNYBCDVQQ/documents" target="_blank" rel="noopener">IT-Supportleistungen für die Unfallkasse Nordrhein-Westfalen an den Standorten Münster und Düsseldorf</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -614,7 +626,7 @@
     
     <span class="score score--low" title="Relevanz-Score">0</span>
   </div>
-  <div class="card__title"><a href="https://www.uniklinik-duesseldorf.de/" target="_blank" rel="noopener">Externe Kodierrevision vor Fallabrechnung</a></div>
+  <div class="card__title"><a href="https://www.uniklinik-duesseldorf.de/" target="_blank" rel="noopener">Externe Kodierrevision vor Fallabrechnung</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -627,7 +639,7 @@
     
     <span class="score score--low" title="Relevanz-Score">14</span>
   </div>
-  <div class="card__title"><a href="https://www.land.nrw/" target="_blank" rel="noopener">Vergabeverfahren Fluggastkontrollstellen des Landes Nordrhein-Westfalen</a></div>
+  <div class="card__title"><a href="https://www.land.nrw/" target="_blank" rel="noopener">Vergabeverfahren Fluggastkontrollstellen des Landes Nordrhein-Westfalen</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -640,7 +652,7 @@
     
     <span class="score score--low" title="Relevanz-Score">0</span>
   </div>
-  <div class="card__title"><a href="https://www.it.nrw/" target="_blank" rel="noopener">KI-Inferenz über Confidential Computing</a></div>
+  <div class="card__title"><a href="https://www.it.nrw/" target="_blank" rel="noopener">KI-Inferenz über Confidential Computing</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -653,7 +665,7 @@
     <span class="tag tag--gewerk">Bau</span>
     <span class="score score--mid" title="Relevanz-Score">60</span>
   </div>
-  <div class="card__title"><a href="https://www.bezreg-muenster.de/de/wirtschaft_finanzen_kommunalaufsicht/vergabekammer_westfalen/index.html" target="_blank" rel="noopener">Münster, Forschungsfertigung Batteriezelle 2.BA Fab; Maler- und Lackierarbeiten</a></div>
+  <div class="card__title"><a href="https://www.bezreg-muenster.de/de/wirtschaft_finanzen_kommunalaufsicht/vergabekammer_westfalen/index.html" target="_blank" rel="noopener">Münster, Forschungsfertigung Batteriezelle 2.BA Fab; Maler- und Lackierarbeiten</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -666,7 +678,7 @@
     <span class="tag tag--gewerk">Bau</span>
     <span class="score score--mid" title="Relevanz-Score">50</span>
   </div>
-  <div class="card__title"><a href="https://www.bezreg-muenster.de/de/wirtschaft_finanzen_kommunalaufsicht/vergabekammer_westfalen/index.html" target="_blank" rel="noopener">Neuss, LAGA 26 Instandsetzung Hammfeldhof; Fliesenarbeiten</a></div>
+  <div class="card__title"><a href="https://www.bezreg-muenster.de/de/wirtschaft_finanzen_kommunalaufsicht/vergabekammer_westfalen/index.html" target="_blank" rel="noopener">Neuss, LAGA 26 Instandsetzung Hammfeldhof; Fliesenarbeiten</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -679,7 +691,7 @@
     <span class="tag tag--gewerk">Bau</span>
     <span class="score score--mid" title="Relevanz-Score">64</span>
   </div>
-  <div class="card__title"><a href="http://www.uk-essen.de/aktuelles/ausschreibungen" target="_blank" rel="noopener">INFRA Erdarbeiten</a></div>
+  <div class="card__title"><a href="http://www.uk-essen.de/aktuelles/ausschreibungen" target="_blank" rel="noopener">INFRA Erdarbeiten</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -692,7 +704,7 @@
     
     <span class="score score--low" title="Relevanz-Score">4</span>
   </div>
-  <div class="card__title"><a href="https://www.im.nrw" target="_blank" rel="noopener">Firewall und E-Mail-Security Gateway</a></div>
+  <div class="card__title"><a href="https://www.im.nrw" target="_blank" rel="noopener">Firewall und E-Mail-Security Gateway</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -705,7 +717,7 @@
     
     <span class="score score--low" title="Relevanz-Score">0</span>
   </div>
-  <div class="card__title"><a href="https://www.it.nrw/" target="_blank" rel="noopener">Zentraler IT Einkauf NRW - Rahmenvertrag APCs</a></div>
+  <div class="card__title"><a href="https://www.it.nrw/" target="_blank" rel="noopener">Zentraler IT Einkauf NRW - Rahmenvertrag APCs</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -718,7 +730,7 @@
     <span class="tag tag--gewerk">Bau</span>
     <span class="score score--mid" title="Relevanz-Score">50</span>
   </div>
-  <div class="card__title"><a href="https://www.evergabe.nrw.de/VMPSatellite/notice/CXPNY6AD8B8/documents" target="_blank" rel="noopener">Neuss, Instandsetzung Hammfeldhof zur Landesgartenschau 2026</a></div>
+  <div class="card__title"><a href="https://www.evergabe.nrw.de/VMPSatellite/notice/CXPNY6AD8B8/documents" target="_blank" rel="noopener">Neuss, Instandsetzung Hammfeldhof zur Landesgartenschau 2026</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -731,7 +743,7 @@
     
     <span class="score score--low" title="Relevanz-Score">4</span>
   </div>
-  <div class="card__title"><a href="https://www.nrwbank.de/de/index.html" target="_blank" rel="noopener">Wirtschaftsdienste für die NRW.BANK am Standort Düsseldorf</a></div>
+  <div class="card__title"><a href="https://www.nrwbank.de/de/index.html" target="_blank" rel="noopener">Wirtschaftsdienste für die NRW.BANK am Standort Düsseldorf</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -744,7 +756,7 @@
     
     <span class="score score--low" title="Relevanz-Score">4</span>
   </div>
-  <div class="card__title"><a href="https://www.nrwbank.de/de/index.html" target="_blank" rel="noopener">Wirtschaftsdienste für die NRW.BANK am Standort Münster</a></div>
+  <div class="card__title"><a href="https://www.nrwbank.de/de/index.html" target="_blank" rel="noopener">Wirtschaftsdienste für die NRW.BANK am Standort Münster</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -757,7 +769,7 @@
     
     <span class="score score--low" title="Relevanz-Score">20</span>
   </div>
-  <div class="card__title"><a href="https://www.baulandleben.nrw/starke-projekte" target="_blank" rel="noopener">Tragwerksplanung</a></div>
+  <div class="card__title"><a href="https://www.baulandleben.nrw/starke-projekte" target="_blank" rel="noopener">Tragwerksplanung</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -770,7 +782,7 @@
     <span class="tag tag--gewerk">hochbau</span>
     <span class="score score--low" title="Relevanz-Score">20</span>
   </div>
-  <div class="card__title"><a href="https://www.uniklinik-duesseldorf.de/" target="_blank" rel="noopener">Ultraschallgerät für Kleintiere - Neubau CARDDIAB</a></div>
+  <div class="card__title"><a href="https://www.uniklinik-duesseldorf.de/" target="_blank" rel="noopener">Ultraschallgerät für Kleintiere - Neubau CARDDIAB</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -783,7 +795,7 @@
     
     <span class="score score--low" title="Relevanz-Score">14</span>
   </div>
-  <div class="card__title"><a href="https://www.wirtschaft.nrw" target="_blank" rel="noopener">Fortführung und Weiterentwicklung des Skalierungsprogramms &quot;Scale-up.NRW&quot; - Konzeption, Ausbau und operative Umsetzung</a></div>
+  <div class="card__title"><a href="https://www.wirtschaft.nrw" target="_blank" rel="noopener">Fortführung und Weiterentwicklung des Skalierungsprogramms &quot;Scale-up.NRW&quot; - Konzeption, Ausbau und operative Umsetzung</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -796,7 +808,7 @@
     
     <span class="score score--low" title="Relevanz-Score">0</span>
   </div>
-  <div class="card__title"><a href="https://www.bezreg-koeln.nrw.de/brk_internet/vergabekammer/index.html" target="_blank" rel="noopener">Büro- und Moderationsmaterial sowie Kopierpapier</a></div>
+  <div class="card__title"><a href="https://www.bezreg-koeln.nrw.de/brk_internet/vergabekammer/index.html" target="_blank" rel="noopener">Büro- und Moderationsmaterial sowie Kopierpapier</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -809,7 +821,7 @@
     
     <span class="score score--low" title="Relevanz-Score">0</span>
   </div>
-  <div class="card__title">Informationssicherheitsmanagement</div>
+  <div class="card__title">Informationssicherheitsmanagement<span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -822,7 +834,7 @@
     
     <span class="score score--low" title="Relevanz-Score">4</span>
   </div>
-  <div class="card__title"><a href="https://www.archive.nrw.de/lav/index.php" target="_blank" rel="noopener">Maßnahme &quot;Konservierung, Digitalisierung und Verpackung von Urkunden</a></div>
+  <div class="card__title"><a href="https://www.archive.nrw.de/lav/index.php" target="_blank" rel="noopener">Maßnahme &quot;Konservierung, Digitalisierung und Verpackung von Urkunden</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -835,7 +847,7 @@
     
     <span class="score score--low" title="Relevanz-Score">20</span>
   </div>
-  <div class="card__title"><a href="https://www.baulandleben.nrw/starke-projekte" target="_blank" rel="noopener">Verkehrsuntersuchung - AGORA Hürth</a></div>
+  <div class="card__title"><a href="https://www.baulandleben.nrw/starke-projekte" target="_blank" rel="noopener">Verkehrsuntersuchung - AGORA Hürth</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -848,7 +860,7 @@
     
     <span class="score score--low" title="Relevanz-Score">0</span>
   </div>
-  <div class="card__title">Hochsicherheitsinfrastruktur</div>
+  <div class="card__title">Hochsicherheitsinfrastruktur<span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -861,7 +873,7 @@
     <span class="tag tag--gewerk">Bau</span>
     <span class="score score--low" title="Relevanz-Score">30</span>
   </div>
-  <div class="card__title"><a href="https://www.bezreg-koeln.nrw.de/themen/wirtschaft-und-kultur/vergabekammer-rheinland" target="_blank" rel="noopener">Go4Gewerbe, Mönchengladbach Trabrennbahn - Rückbau und Herrichtung</a></div>
+  <div class="card__title"><a href="https://www.bezreg-koeln.nrw.de/themen/wirtschaft-und-kultur/vergabekammer-rheinland" target="_blank" rel="noopener">Go4Gewerbe, Mönchengladbach Trabrennbahn - Rückbau und Herrichtung</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -874,7 +886,7 @@
     <span class="tag tag--gewerk">Bau</span>
     <span class="score score--mid" title="Relevanz-Score">54</span>
   </div>
-  <div class="card__title"><a href="https://www.evergabe.nrw.de/VMPSatellite/notice/CXPNY6ADP3J/documents" target="_blank" rel="noopener">Neuss, Grünachse Hammfeld; Verkehrsanlagen</a></div>
+  <div class="card__title"><a href="https://www.evergabe.nrw.de/VMPSatellite/notice/CXPNY6ADP3J/documents" target="_blank" rel="noopener">Neuss, Grünachse Hammfeld; Verkehrsanlagen</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -887,7 +899,7 @@
     <span class="tag tag--gewerk">Elektro</span>
     <span class="score score--low" title="Relevanz-Score">4</span>
   </div>
-  <div class="card__title"><a href="http://www.brd.nrw.de" target="_blank" rel="noopener">Stromliefervertrag für die NU Krefeld-Forstwald</a></div>
+  <div class="card__title"><a href="http://www.brd.nrw.de" target="_blank" rel="noopener">Stromliefervertrag für die NU Krefeld-Forstwald</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -900,7 +912,7 @@
     
     <span class="score score--low" title="Relevanz-Score">20</span>
   </div>
-  <div class="card__title"><a href="https://www.bezreg-koeln.nrw.de/themen/wirtschaft-und-kultur/vergabekammer-rheinland" target="_blank" rel="noopener">Bürgewald, Ort der Zukunft - Standsicherheitsuntersuchung</a></div>
+  <div class="card__title"><a href="https://www.bezreg-koeln.nrw.de/themen/wirtschaft-und-kultur/vergabekammer-rheinland" target="_blank" rel="noopener">Bürgewald, Ort der Zukunft - Standsicherheitsuntersuchung</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -913,7 +925,7 @@
     
     <span class="score score--low" title="Relevanz-Score">4</span>
   </div>
-  <div class="card__title"><a href="https://www.nrwbank.de/de/index.html" target="_blank" rel="noopener">Personalentwicklung: Training in der NRW.BANK, Los 1: Agiles Arbeiten, Arbeitsmethoden und -techniken</a></div>
+  <div class="card__title"><a href="https://www.nrwbank.de/de/index.html" target="_blank" rel="noopener">Personalentwicklung: Training in der NRW.BANK, Los 1: Agiles Arbeiten, Arbeitsmethoden und -techniken</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -926,7 +938,7 @@
     
     <span class="score score--low" title="Relevanz-Score">4</span>
   </div>
-  <div class="card__title"><a href="https://www.finanzverwaltung.nrw.de/de/willkommen" target="_blank" rel="noopener">Rahmenvereinbarung (RV) zur Lieferung von  Mini-PCs mit gleichzeitigem erstem Abruf</a></div>
+  <div class="card__title"><a href="https://www.finanzverwaltung.nrw.de/de/willkommen" target="_blank" rel="noopener">Rahmenvereinbarung (RV) zur Lieferung von  Mini-PCs mit gleichzeitigem erstem Abruf</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -939,7 +951,7 @@
     <span class="tag tag--gewerk">Bau</span>
     <span class="score score--high" title="Relevanz-Score">80</span>
   </div>
-  <div class="card__title"><a href="https://www.bezreg-muenster.de/de/wirtschaft_finanzen_kommunalaufsicht/vergabekammer_westfalen/index.html" target="_blank" rel="noopener">Bochum, Quartier am Gesundheitscampus; Kanal- und Straßenbauarbeiten</a></div>
+  <div class="card__title"><a href="https://www.bezreg-muenster.de/de/wirtschaft_finanzen_kommunalaufsicht/vergabekammer_westfalen/index.html" target="_blank" rel="noopener">Bochum, Quartier am Gesundheitscampus; Kanal- und Straßenbauarbeiten</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -952,7 +964,7 @@
     
     <span class="score score--low" title="Relevanz-Score">20</span>
   </div>
-  <div class="card__title"><a href="https://www.bezreg-koeln.nrw.de/themen/wirtschaft-und-kultur/vergabekammer-rheinland" target="_blank" rel="noopener">Go4Gewerbe - Mönchengladbach Trabrennbahn - Landschaftsplanung Grünordnungsplan und Umweltbericht</a></div>
+  <div class="card__title"><a href="https://www.bezreg-koeln.nrw.de/themen/wirtschaft-und-kultur/vergabekammer-rheinland" target="_blank" rel="noopener">Go4Gewerbe - Mönchengladbach Trabrennbahn - Landschaftsplanung Grünordnungsplan und Umweltbericht</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -965,7 +977,7 @@
     
     <span class="score score--low" title="Relevanz-Score">4</span>
   </div>
-  <div class="card__title"><a href="https://www.kunstsammlung.de" target="_blank" rel="noopener">Kunsttransporte 2026_2027 (RV)</a></div>
+  <div class="card__title"><a href="https://www.kunstsammlung.de" target="_blank" rel="noopener">Kunsttransporte 2026_2027 (RV)</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -978,7 +990,7 @@
     <span class="tag tag--gewerk">Bau</span>
     <span class="score score--low" title="Relevanz-Score">20</span>
   </div>
-  <div class="card__title"><a href="https://www.ukaachen.de" target="_blank" rel="noopener">Rahmenvereinbarung TÜV Mängel RLT-Anlagen</a></div>
+  <div class="card__title"><a href="https://www.ukaachen.de" target="_blank" rel="noopener">Rahmenvereinbarung TÜV Mängel RLT-Anlagen</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -991,7 +1003,7 @@
     <span class="tag tag--gewerk">Bau</span>
     <span class="score score--high" title="Relevanz-Score">74</span>
   </div>
-  <div class="card__title"><a href="https://www.ukaachen.de/kliniken-institute/ukafacilities/ukafacilities.html" target="_blank" rel="noopener">Rohrleitungsbau, Gebäudeautomation- Erneuerung der 24 Systemzentralen der zentralen Klimaanlage</a></div>
+  <div class="card__title"><a href="https://www.ukaachen.de/kliniken-institute/ukafacilities/ukafacilities.html" target="_blank" rel="noopener">Rohrleitungsbau, Gebäudeautomation- Erneuerung der 24 Systemzentralen der zentralen Klimaanlage</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -1004,7 +1016,7 @@
     
     <span class="score score--low" title="Relevanz-Score">0</span>
   </div>
-  <div class="card__title"><a href="https://www.ukaachen.de" target="_blank" rel="noopener">Digitalisierung von patientenbezogenen Papierprozessen</a></div>
+  <div class="card__title"><a href="https://www.ukaachen.de" target="_blank" rel="noopener">Digitalisierung von patientenbezogenen Papierprozessen</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -1017,7 +1029,7 @@
     <span class="tag tag--gewerk">Bau</span>
     <span class="score score--high" title="Relevanz-Score">84</span>
   </div>
-  <div class="card__title"><a href="https://www.ukaachen.de/kliniken-institute/ukafacilities/ukafacilities/" target="_blank" rel="noopener">Medienversorgungsanlagen - Infrastrukturmaßnahmen in Neubauprojekten</a></div>
+  <div class="card__title"><a href="https://www.ukaachen.de/kliniken-institute/ukafacilities/ukafacilities/" target="_blank" rel="noopener">Medienversorgungsanlagen - Infrastrukturmaßnahmen in Neubauprojekten</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -1030,7 +1042,7 @@
     
     <span class="score score--low" title="Relevanz-Score">4</span>
   </div>
-  <div class="card__title"><a href="https://www.fh-aachen.de/" target="_blank" rel="noopener">Hochleistungslasersystem</a></div>
+  <div class="card__title"><a href="https://www.fh-aachen.de/" target="_blank" rel="noopener">Hochleistungslasersystem</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -1043,7 +1055,7 @@
     
     <span class="score score--low" title="Relevanz-Score">20</span>
   </div>
-  <div class="card__title"><a href="https://www.ukaachen.de" target="_blank" rel="noopener">Wartung, lnspektion und lnstandsetzung der Türfeststellanlagen</a></div>
+  <div class="card__title"><a href="https://www.ukaachen.de" target="_blank" rel="noopener">Wartung, lnspektion und lnstandsetzung der Türfeststellanlagen</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -1056,7 +1068,7 @@
     
     <span class="score score--low" title="Relevanz-Score">24</span>
   </div>
-  <div class="card__title"><a href="http://www.rwth-aachen.de" target="_blank" rel="noopener">Zweites Verfahren Interimistische Beschaffung von IT Clients</a></div>
+  <div class="card__title"><a href="http://www.rwth-aachen.de" target="_blank" rel="noopener">Zweites Verfahren Interimistische Beschaffung von IT Clients</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -1069,7 +1081,7 @@
     
     <span class="score score--low" title="Relevanz-Score">0</span>
   </div>
-  <div class="card__title"><a href="http://www.hspv.nrw.de" target="_blank" rel="noopener">Rahmenvertrag Literaturbeschaffung für alle Studienorte</a></div>
+  <div class="card__title"><a href="http://www.hspv.nrw.de" target="_blank" rel="noopener">Rahmenvertrag Literaturbeschaffung für alle Studienorte</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -1082,7 +1094,7 @@
     
     <span class="score score--low" title="Relevanz-Score">4</span>
   </div>
-  <div class="card__title"><a href="http://www.rwth-aachen.de" target="_blank" rel="noopener">172 - CWS Hardwareentwicklung</a></div>
+  <div class="card__title"><a href="http://www.rwth-aachen.de" target="_blank" rel="noopener">172 - CWS Hardwareentwicklung</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -1095,7 +1107,7 @@
     
     <span class="score score--low" title="Relevanz-Score">0</span>
   </div>
-  <div class="card__title"><a href="http://www.rwth-aachen.de" target="_blank" rel="noopener">Einführung eines neuen CAFM-Systems</a></div>
+  <div class="card__title"><a href="http://www.rwth-aachen.de" target="_blank" rel="noopener">Einführung eines neuen CAFM-Systems</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -1108,7 +1120,7 @@
     
     <span class="score score--low" title="Relevanz-Score">24</span>
   </div>
-  <div class="card__title"><a href="https://www.ukaachen.de" target="_blank" rel="noopener">Rahmenvereinbarung über die Lieferung von Büromöbel und Besucherstühlen</a></div>
+  <div class="card__title"><a href="https://www.ukaachen.de" target="_blank" rel="noopener">Rahmenvereinbarung über die Lieferung von Büromöbel und Besucherstühlen</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -1121,7 +1133,7 @@
     
     <span class="score score--low" title="Relevanz-Score">0</span>
   </div>
-  <div class="card__title"><a href="http://www.rwth-aachen.de" target="_blank" rel="noopener">178 - Einzelphotonenquelle</a></div>
+  <div class="card__title"><a href="http://www.rwth-aachen.de" target="_blank" rel="noopener">178 - Einzelphotonenquelle</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -1134,7 +1146,7 @@
     <span class="tag tag--gewerk">Bau</span>
     <span class="score score--mid" title="Relevanz-Score">64</span>
   </div>
-  <div class="card__title"><a href="https://www.ukaachen.de/kliniken-institute/ukafacilities/ukafacilities.html" target="_blank" rel="noopener">REKU-Netz (Süd-Trasse) Schadstoffreinigung- Erneuerung der 24 Systemzentralen der zentralen Klimaanlage</a></div>
+  <div class="card__title"><a href="https://www.ukaachen.de/kliniken-institute/ukafacilities/ukafacilities.html" target="_blank" rel="noopener">REKU-Netz (Süd-Trasse) Schadstoffreinigung- Erneuerung der 24 Systemzentralen der zentralen Klimaanlage</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -1147,7 +1159,7 @@
     
     <span class="score score--low" title="Relevanz-Score">4</span>
   </div>
-  <div class="card__title"><a href="https://www.ukaachen.de" target="_blank" rel="noopener">Austausch und Erneuerung der Druckerflotte (Outputmanagement)</a></div>
+  <div class="card__title"><a href="https://www.ukaachen.de" target="_blank" rel="noopener">Austausch und Erneuerung der Druckerflotte (Outputmanagement)</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -1160,7 +1172,7 @@
     
     <span class="score score--low" title="Relevanz-Score">0</span>
   </div>
-  <div class="card__title"><a href="https://www.ukaachen.de" target="_blank" rel="noopener">Bestrahlungsplanungssystem inkl. Wartungsvertrag für 5 Jahre</a></div>
+  <div class="card__title"><a href="https://www.ukaachen.de" target="_blank" rel="noopener">Bestrahlungsplanungssystem inkl. Wartungsvertrag für 5 Jahre</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -1173,7 +1185,7 @@
     
     <span class="score score--low" title="Relevanz-Score">0</span>
   </div>
-  <div class="card__title"><a href="http://www.rwth-aachen.de" target="_blank" rel="noopener">167 - 6-Walzen-Kalander</a></div>
+  <div class="card__title"><a href="http://www.rwth-aachen.de" target="_blank" rel="noopener">167 - 6-Walzen-Kalander</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -1186,7 +1198,7 @@
     <span class="tag tag--gewerk">Sanitär</span>
     <span class="score score--low" title="Relevanz-Score">0</span>
   </div>
-  <div class="card__title"><a href="https://www.ukaachen.de" target="_blank" rel="noopener">Rahmenvereinbarung für die Anmietung von Tafelwasseranlagen</a></div>
+  <div class="card__title"><a href="https://www.ukaachen.de" target="_blank" rel="noopener">Rahmenvereinbarung für die Anmietung von Tafelwasseranlagen</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -1199,7 +1211,7 @@
     <span class="tag tag--gewerk">Bau</span>
     <span class="score score--high" title="Relevanz-Score">84</span>
   </div>
-  <div class="card__title"><a href="https://www.ukaachen.de/kliniken-institute/ukafacilities/ukafacilities.html" target="_blank" rel="noopener">Rohrleitungsbau, Lüftungstechnik und Gebäudeautomation- Erneuerung der 24 Systemzentralen der zentralen Klimaanlage</a></div>
+  <div class="card__title"><a href="https://www.ukaachen.de/kliniken-institute/ukafacilities/ukafacilities.html" target="_blank" rel="noopener">Rohrleitungsbau, Lüftungstechnik und Gebäudeautomation- Erneuerung der 24 Systemzentralen der zentralen Klimaanlage</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -1212,7 +1224,7 @@
     <span class="tag tag--gewerk">Sanitär</span>
     <span class="score score--low" title="Relevanz-Score">0</span>
   </div>
-  <div class="card__title"><a href="http://www.rwth-aachen.de" target="_blank" rel="noopener">159 - Aufladung Wasserstoffmotor</a></div>
+  <div class="card__title"><a href="http://www.rwth-aachen.de" target="_blank" rel="noopener">159 - Aufladung Wasserstoffmotor</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -1225,7 +1237,7 @@
     <span class="tag tag--gewerk">Bau</span>
     <span class="score score--mid" title="Relevanz-Score">54</span>
   </div>
-  <div class="card__title"><a href="https://www.ukaachen.de" target="_blank" rel="noopener">Erneuerung der  Alarmierungsanlage</a></div>
+  <div class="card__title"><a href="https://www.ukaachen.de" target="_blank" rel="noopener">Erneuerung der  Alarmierungsanlage</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -1238,7 +1250,7 @@
     
     <span class="score score--low" title="Relevanz-Score">0</span>
   </div>
-  <div class="card__title"><a href="http://www.rwth-aachen.de" target="_blank" rel="noopener">153/164 - Interessenbekundung Testlabore für JVET CfP</a></div>
+  <div class="card__title"><a href="http://www.rwth-aachen.de" target="_blank" rel="noopener">153/164 - Interessenbekundung Testlabore für JVET CfP</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -1251,7 +1263,7 @@
     
     <span class="score score--low" title="Relevanz-Score">4</span>
   </div>
-  <div class="card__title"><a href="https://www.bezreg-koeln.nrw.de/themen/wirtschaft-und-kultur/vergabekammer-rheinland" target="_blank" rel="noopener">Rahmenvertrag Wafer und Chips</a></div>
+  <div class="card__title"><a href="https://www.bezreg-koeln.nrw.de/themen/wirtschaft-und-kultur/vergabekammer-rheinland" target="_blank" rel="noopener">Rahmenvertrag Wafer und Chips</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -1264,7 +1276,7 @@
     
     <span class="score score--low" title="Relevanz-Score">0</span>
   </div>
-  <div class="card__title"><a href="https://www.bezreg-koeln.nrw.de/themen/wirtschaft-und-kultur/vergabekammer-rheinland" target="_blank" rel="noopener">Umzugsdienstleistungen</a></div>
+  <div class="card__title"><a href="https://www.bezreg-koeln.nrw.de/themen/wirtschaft-und-kultur/vergabekammer-rheinland" target="_blank" rel="noopener">Umzugsdienstleistungen</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -1277,7 +1289,7 @@
     
     <span class="score score--low" title="Relevanz-Score">4</span>
   </div>
-  <div class="card__title"><a href="https://www.evergabe.nrw.de/VMPSatellite/notice/CXS7Y6AYTGXUBGPV/documents" target="_blank" rel="noopener">Abholung, Beförderung, Zustellung und Rückführung von Postzustellungsaufträgen (PZA) für die im Oberlandesgerichtsbezirk Hamm gelegenen Justizbehörden (ohne zentrales Mahngericht und ohne Justizvollzugsanstalten)</a></div>
+  <div class="card__title"><a href="https://www.evergabe.nrw.de/VMPSatellite/notice/CXS7Y6AYTGXUBGPV/documents" target="_blank" rel="noopener">Abholung, Beförderung, Zustellung und Rückführung von Postzustellungsaufträgen (PZA) für die im Oberlandesgerichtsbezirk Hamm gelegenen Justizbehörden (ohne zentrales Mahngericht und ohne Justizvollzugsanstalten)</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -1290,7 +1302,7 @@
     
     <span class="score score--low" title="Relevanz-Score">0</span>
   </div>
-  <div class="card__title"><a href="https://www.bezreg-muenster.de/de/wirtschaft_finanzen_kommunalaufsicht/vergabekammer_westfalen/index.html" target="_blank" rel="noopener">Vertrag über Garten- und Landschaftspflegearbeiten</a></div>
+  <div class="card__title"><a href="https://www.bezreg-muenster.de/de/wirtschaft_finanzen_kommunalaufsicht/vergabekammer_westfalen/index.html" target="_blank" rel="noopener">Vertrag über Garten- und Landschaftspflegearbeiten</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -1303,7 +1315,7 @@
     <span class="tag tag--gewerk">Bau</span>
     <span class="score score--high" title="Relevanz-Score">80</span>
   </div>
-  <div class="card__title"><a href="https://www.evergabe.nrw.de/VMPSatellite/notice/CXS7Y51YTQ9CNH31/documents" target="_blank" rel="noopener">L663 Kamen, Dortmunder Allee Neubau Radweg und Fahrbahnsanierung</a></div>
+  <div class="card__title"><a href="https://www.evergabe.nrw.de/VMPSatellite/notice/CXS7Y51YTQ9CNH31/documents" target="_blank" rel="noopener">L663 Kamen, Dortmunder Allee Neubau Radweg und Fahrbahnsanierung</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -1316,7 +1328,7 @@
     
     <span class="score score--low" title="Relevanz-Score">20</span>
   </div>
-  <div class="card__title"><a href="https://www.evergabe.nrw.de/VMPSatellite/notice/CXS7Y51YTGXJGTQ0/documents" target="_blank" rel="noopener">Nachtragsbearbeitung B236 in Dortmund 2. und 3. TA</a></div>
+  <div class="card__title"><a href="https://www.evergabe.nrw.de/VMPSatellite/notice/CXS7Y51YTGXJGTQ0/documents" target="_blank" rel="noopener">Nachtragsbearbeitung B236 in Dortmund 2. und 3. TA</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -1329,7 +1341,7 @@
     
     <span class="score score--low" title="Relevanz-Score">30</span>
   </div>
-  <div class="card__title"><a href="https://www.evergabe.nrw.de/VMPSatellite/notice/CXS7Y51YTQYZ8GNC/documents" target="_blank" rel="noopener">Baugrundgutachten</a></div>
+  <div class="card__title"><a href="https://www.evergabe.nrw.de/VMPSatellite/notice/CXS7Y51YTQYZ8GNC/documents" target="_blank" rel="noopener">Baugrundgutachten</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -1342,7 +1354,7 @@
     <span class="tag tag--gewerk">Bau</span>
     <span class="score score--mid" title="Relevanz-Score">50</span>
   </div>
-  <div class="card__title"><a href="https://www.inselhombroich.de" target="_blank" rel="noopener">Freianlagen Zwölf-Räume-Haus</a></div>
+  <div class="card__title"><a href="https://www.inselhombroich.de" target="_blank" rel="noopener">Freianlagen Zwölf-Räume-Haus</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -1355,7 +1367,7 @@
     <span class="tag tag--gewerk">hochbau</span>
     <span class="score score--mid" title="Relevanz-Score">40</span>
   </div>
-  <div class="card__title"><a href="https://www.bezreg-koeln.nrw.de" target="_blank" rel="noopener">L361, Ersatzneubau Ingenieurbauwerke Kapellen</a></div>
+  <div class="card__title"><a href="https://www.bezreg-koeln.nrw.de" target="_blank" rel="noopener">L361, Ersatzneubau Ingenieurbauwerke Kapellen</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -1368,7 +1380,7 @@
     <span class="tag tag--gewerk">hochbau</span>
     <span class="score score--mid" title="Relevanz-Score">40</span>
   </div>
-  <div class="card__title"><a href="https://www.bezreg-muenster.de/" target="_blank" rel="noopener">Diverse Ersatzneubauten im Raum Grevenbroich; Baugrund- u. Streckenuntersuchung mehrerer Bauwerke</a></div>
+  <div class="card__title"><a href="https://www.bezreg-muenster.de/" target="_blank" rel="noopener">Diverse Ersatzneubauten im Raum Grevenbroich; Baugrund- u. Streckenuntersuchung mehrerer Bauwerke</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -1381,7 +1393,7 @@
     
     <span class="score score--low" title="Relevanz-Score">20</span>
   </div>
-  <div class="card__title"><a href="https://www.evergabe.nrw.de/VMPSatellite/notice/CXS7Y51YTQZ3B748/documents" target="_blank" rel="noopener">Beweissicherung</a></div>
+  <div class="card__title"><a href="https://www.evergabe.nrw.de/VMPSatellite/notice/CXS7Y51YTQZ3B748/documents" target="_blank" rel="noopener">Beweissicherung</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -1394,7 +1406,7 @@
     
     <span class="score score--low" title="Relevanz-Score">0</span>
   </div>
-  <div class="card__title"><a href="https://www.bezreg-koeln.nrw.de/brk_internet/vergabekammer/index.html" target="_blank" rel="noopener">Einsatzverpflegung für das Polizeipräsidium Mönchengladbach</a></div>
+  <div class="card__title"><a href="https://www.bezreg-koeln.nrw.de/brk_internet/vergabekammer/index.html" target="_blank" rel="noopener">Einsatzverpflegung für das Polizeipräsidium Mönchengladbach</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -1407,7 +1419,7 @@
     
     <span class="score score--low" title="Relevanz-Score">24</span>
   </div>
-  <div class="card__title"><a href="http://www.bezreg-koeln.nrw.de/" target="_blank" rel="noopener">Seismik Nordwestliches Münsterland</a></div>
+  <div class="card__title"><a href="http://www.bezreg-koeln.nrw.de/" target="_blank" rel="noopener">Seismik Nordwestliches Münsterland</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -1420,7 +1432,7 @@
     <span class="tag tag--gewerk">Bau</span>
     <span class="score score--high" title="Relevanz-Score">80</span>
   </div>
-  <div class="card__title"><a href="https://www.bezreg-koeln.nrw.de/brk_internet/vergabekammer/index.html" target="_blank" rel="noopener">UzK, Geb. 330, Neubau Chemie, Heizung, Kälte, Prozesskälte und Kühlzellen</a></div>
+  <div class="card__title"><a href="https://www.bezreg-koeln.nrw.de/brk_internet/vergabekammer/index.html" target="_blank" rel="noopener">UzK, Geb. 330, Neubau Chemie, Heizung, Kälte, Prozesskälte und Kühlzellen</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -1433,7 +1445,7 @@
     
     <span class="score score--low" title="Relevanz-Score">4</span>
   </div>
-  <div class="card__title"><a href="https://www.uni-bielefeld.de/" target="_blank" rel="noopener">Vernetztes Mikroskopsystem mit Kameraintegration</a></div>
+  <div class="card__title"><a href="https://www.uni-bielefeld.de/" target="_blank" rel="noopener">Vernetztes Mikroskopsystem mit Kameraintegration</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -1446,7 +1458,7 @@
     
     <span class="score score--low" title="Relevanz-Score">0</span>
   </div>
-  <div class="card__title"><a href="https://www.uni-due.de/" target="_blank" rel="noopener">Inverses Lattice Lightsheet Mikroskop mit Photostimulation und Perfusionssytem, erweiterbare Speicherserver</a></div>
+  <div class="card__title"><a href="https://www.uni-due.de/" target="_blank" rel="noopener">Inverses Lattice Lightsheet Mikroskop mit Photostimulation und Perfusionssytem, erweiterbare Speicherserver</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -1459,7 +1471,7 @@
     
     <span class="score score--low" title="Relevanz-Score">24</span>
   </div>
-  <div class="card__title"><a href="https://www.uni-due.de/" target="_blank" rel="noopener">Wartungsverträge Großgeräte CENIDE/ICAN</a></div>
+  <div class="card__title"><a href="https://www.uni-due.de/" target="_blank" rel="noopener">Wartungsverträge Großgeräte CENIDE/ICAN</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -1472,7 +1484,7 @@
     <span class="tag tag--gewerk">Bau</span>
     <span class="score score--high" title="Relevanz-Score">70</span>
   </div>
-  <div class="card__title"><a href="https://www.idf.nrw.de/" target="_blank" rel="noopener">Generalunternehmerleistungen Neubau AS3 - Werkstatthalle mit technischem Kompetenzzentrum</a></div>
+  <div class="card__title"><a href="https://www.idf.nrw.de/" target="_blank" rel="noopener">Generalunternehmerleistungen Neubau AS3 - Werkstatthalle mit technischem Kompetenzzentrum</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -1485,7 +1497,7 @@
     <span class="tag tag--gewerk">Bau</span>
     <span class="score score--mid" title="Relevanz-Score">54</span>
   </div>
-  <div class="card__title"><a href="https://ukm.de" target="_blank" rel="noopener">Universitätsklinikum Münster - Rahmenverträge 2026 - R18 Türen und Zargen</a></div>
+  <div class="card__title"><a href="https://ukm.de" target="_blank" rel="noopener">Universitätsklinikum Münster - Rahmenverträge 2026 - R18 Türen und Zargen</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -1498,7 +1510,7 @@
     <span class="tag tag--gewerk">Bau</span>
     <span class="score score--high" title="Relevanz-Score">80</span>
   </div>
-  <div class="card__title"><a href="http://www.landwirtschaftskammer.de" target="_blank" rel="noopener">Maurer- und Stahlbetonarbeiten im Projekt ZISSAU, 2. Baufenster</a></div>
+  <div class="card__title"><a href="http://www.landwirtschaftskammer.de" target="_blank" rel="noopener">Maurer- und Stahlbetonarbeiten im Projekt ZISSAU, 2. Baufenster</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -1511,7 +1523,7 @@
     <span class="tag tag--gewerk">Bau</span>
     <span class="score score--mid" title="Relevanz-Score">60</span>
   </div>
-  <div class="card__title"><a href="http://www.uni-muenster.de" target="_blank" rel="noopener">Abbrucharbeiten Schlossplatz 9</a></div>
+  <div class="card__title"><a href="http://www.uni-muenster.de" target="_blank" rel="noopener">Abbrucharbeiten Schlossplatz 9</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -1524,7 +1536,7 @@
     <span class="tag tag--gewerk">Bau</span>
     <span class="score score--high" title="Relevanz-Score">70</span>
   </div>
-  <div class="card__title"><a href="https://www.bezreg-koeln.nrw.de/themen/wirtschaft-und-kultur/vergabekammer-rheinland" target="_blank" rel="noopener">Ersatzneubau Rurbrücke Einruhr</a></div>
+  <div class="card__title"><a href="https://www.bezreg-koeln.nrw.de/themen/wirtschaft-und-kultur/vergabekammer-rheinland" target="_blank" rel="noopener">Ersatzneubau Rurbrücke Einruhr</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -1537,7 +1549,7 @@
     <span class="tag tag--gewerk">Bau</span>
     <span class="score score--mid" title="Relevanz-Score">60</span>
   </div>
-  <div class="card__title"><a href="http://www.uni-muenster.de" target="_blank" rel="noopener">Abbrucharbeiten Schlossplatz 9</a></div>
+  <div class="card__title"><a href="http://www.uni-muenster.de" target="_blank" rel="noopener">Abbrucharbeiten Schlossplatz 9</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -1550,7 +1562,7 @@
     <span class="tag tag--gewerk">Tiefbau</span>
     <span class="score score--low" title="Relevanz-Score">28</span>
   </div>
-  <div class="card__title"><a href="https://ukm.de" target="_blank" rel="noopener">Universitätsklinikum Münster - 3800 Zentralklinikum - 647 OPZ Teilprojekt 7 - P58 Fachplanung Technische Ausrüstung - FÖA</a></div>
+  <div class="card__title"><a href="https://ukm.de" target="_blank" rel="noopener">Universitätsklinikum Münster - 3800 Zentralklinikum - 647 OPZ Teilprojekt 7 - P58 Fachplanung Technische Ausrüstung - FÖA</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -1563,7 +1575,7 @@
     
     <span class="score score--low" title="Relevanz-Score">4</span>
   </div>
-  <div class="card__title"><a href="http://www.hshl.de" target="_blank" rel="noopener">Erweiterung Netzwerk</a></div>
+  <div class="card__title"><a href="http://www.hshl.de" target="_blank" rel="noopener">Erweiterung Netzwerk</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -1576,7 +1588,7 @@
     
     <span class="score score--low" title="Relevanz-Score">20</span>
   </div>
-  <div class="card__title"><a href="http://www.uni-muenster.de" target="_blank" rel="noopener">Wartungsvertrag Kälteanlagen</a></div>
+  <div class="card__title"><a href="http://www.uni-muenster.de" target="_blank" rel="noopener">Wartungsvertrag Kälteanlagen</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -1589,7 +1601,7 @@
     
     <span class="score score--low" title="Relevanz-Score">0</span>
   </div>
-  <div class="card__title"><a href="https://www.uk-koeln.de" target="_blank" rel="noopener">Laborinformationssystem Pathologie</a></div>
+  <div class="card__title"><a href="https://www.uk-koeln.de" target="_blank" rel="noopener">Laborinformationssystem Pathologie</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -1602,7 +1614,7 @@
     
     <span class="score score--low" title="Relevanz-Score">0</span>
   </div>
-  <div class="card__title"><a href="https://www.uk-essen.de/" target="_blank" rel="noopener">Rekrutierung internationaler Pflegefachpersonen</a></div>
+  <div class="card__title"><a href="https://www.uk-essen.de/" target="_blank" rel="noopener">Rekrutierung internationaler Pflegefachpersonen</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -1615,7 +1627,7 @@
     
     <span class="score score--low" title="Relevanz-Score">0</span>
   </div>
-  <div class="card__title"><a href="https://www.uk-essen.de/" target="_blank" rel="noopener">Telemedizinische Live-Sonografie in der Pädiatrie Projekt Sophia</a></div>
+  <div class="card__title"><a href="https://www.uk-essen.de/" target="_blank" rel="noopener">Telemedizinische Live-Sonografie in der Pädiatrie Projekt Sophia</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -1628,7 +1640,7 @@
     
     <span class="score score--low" title="Relevanz-Score">0</span>
   </div>
-  <div class="card__title"><a href="https://uni-koeln.de/" target="_blank" rel="noopener">Universität zu Köln - Wirtschaftsprüfungsleistungen</a></div>
+  <div class="card__title"><a href="https://uni-koeln.de/" target="_blank" rel="noopener">Universität zu Köln - Wirtschaftsprüfungsleistungen</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -1641,7 +1653,7 @@
     
     <span class="score score--low" title="Relevanz-Score">0</span>
   </div>
-  <div class="card__title"><a href="https://www.uk-essen.de/" target="_blank" rel="noopener">Rekrutierung internationaler Pflegefachpersonen</a></div>
+  <div class="card__title"><a href="https://www.uk-essen.de/" target="_blank" rel="noopener">Rekrutierung internationaler Pflegefachpersonen</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -1654,7 +1666,7 @@
     <span class="tag tag--gewerk">Bau</span>
     <span class="score score--high" title="Relevanz-Score">70</span>
   </div>
-  <div class="card__title"><a href="https://ukm-im.de" target="_blank" rel="noopener">UKM Marienhospital GmbH - Geb. 9910 Standort Steinfurt - Neubau Bettenhaus 1. und 2. BA  - G28 Technische Wärmedämmung</a></div>
+  <div class="card__title"><a href="https://ukm-im.de" target="_blank" rel="noopener">UKM Marienhospital GmbH - Geb. 9910 Standort Steinfurt - Neubau Bettenhaus 1. und 2. BA  - G28 Technische Wärmedämmung</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -1667,7 +1679,7 @@
     
     <span class="score score--low" title="Relevanz-Score">20</span>
   </div>
-  <div class="card__title"><a href="https://www.bezreg-muenster.de/themen/wirtschaft-kultur-und-kommunales/vergabekammer-westfalen" target="_blank" rel="noopener">Chemische Untersuchungen</a></div>
+  <div class="card__title"><a href="https://www.bezreg-muenster.de/themen/wirtschaft-kultur-und-kommunales/vergabekammer-westfalen" target="_blank" rel="noopener">Chemische Untersuchungen</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -1680,7 +1692,7 @@
     <span class="tag tag--gewerk">Bau</span>
     <span class="score score--mid" title="Relevanz-Score">50</span>
   </div>
-  <div class="card__title"><a href="http://www.strassen.NRW.de" target="_blank" rel="noopener">L667 Hamm - ENB Lippebrücken</a></div>
+  <div class="card__title"><a href="http://www.strassen.NRW.de" target="_blank" rel="noopener">L667 Hamm - ENB Lippebrücken</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -1693,7 +1705,7 @@
     
     <span class="score score--low" title="Relevanz-Score">0</span>
   </div>
-  <div class="card__title"><a href="http://www.wald-und-holz.nrw.de" target="_blank" rel="noopener">Rahmenvereinbarung über die Durchführung von Holzbringungsarbeiten und Verkehrssicherung in den Forstbetriebsbezirken Beckerhof, Ebbetal und Lieberhausen des Regionalforstamtes Kurkölnisches Sauerland</a></div>
+  <div class="card__title"><a href="http://www.wald-und-holz.nrw.de" target="_blank" rel="noopener">Rahmenvereinbarung über die Durchführung von Holzbringungsarbeiten und Verkehrssicherung in den Forstbetriebsbezirken Beckerhof, Ebbetal und Lieberhausen des Regionalforstamtes Kurkölnisches Sauerland</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -1706,7 +1718,7 @@
     
     <span class="score score--low" title="Relevanz-Score">0</span>
   </div>
-  <div class="card__title"><a href="https://www.uni-due.de/" target="_blank" rel="noopener">Dissipations-Schwingquarzmikrowaagensystem</a></div>
+  <div class="card__title"><a href="https://www.uni-due.de/" target="_blank" rel="noopener">Dissipations-Schwingquarzmikrowaagensystem</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -1719,7 +1731,7 @@
     
     <span class="score score--low" title="Relevanz-Score">24</span>
   </div>
-  <div class="card__title"><a href="https://www.uni-bielefeld.de/" target="_blank" rel="noopener">Rahmenvertrag Bürodrehstühle</a></div>
+  <div class="card__title"><a href="https://www.uni-bielefeld.de/" target="_blank" rel="noopener">Rahmenvertrag Bürodrehstühle</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -1732,7 +1744,7 @@
     
     <span class="score score--low" title="Relevanz-Score">14</span>
   </div>
-  <div class="card__title"><a href="https://www.uni-bielefeld.de/" target="_blank" rel="noopener">Ausbau Speicherinfrastruktur</a></div>
+  <div class="card__title"><a href="https://www.uni-bielefeld.de/" target="_blank" rel="noopener">Ausbau Speicherinfrastruktur</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -1745,7 +1757,7 @@
     <span class="tag tag--gewerk">Bau</span>
     <span class="score score--high" title="Relevanz-Score">80</span>
   </div>
-  <div class="card__title"><a href="https://ukm-im.de" target="_blank" rel="noopener">UKM Marienhospital GmbH - Geb. 9910 Standort Steinfurt - Neubau Bettenhaus 1. und 2. BA | M017-G10 Dachdeckerarbeiten</a></div>
+  <div class="card__title"><a href="https://ukm-im.de" target="_blank" rel="noopener">UKM Marienhospital GmbH - Geb. 9910 Standort Steinfurt - Neubau Bettenhaus 1. und 2. BA | M017-G10 Dachdeckerarbeiten</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -1758,7 +1770,7 @@
     <span class="tag tag--gewerk">Bau</span>
     <span class="score score--mid" title="Relevanz-Score">60</span>
   </div>
-  <div class="card__title"><a href="http://www.uk-essen.de/aktuelles/ausschreibungen" target="_blank" rel="noopener">NUM RC Ausbau Radiopharmazie - Stark- und Schwachstromanlagen</a></div>
+  <div class="card__title"><a href="http://www.uk-essen.de/aktuelles/ausschreibungen" target="_blank" rel="noopener">NUM RC Ausbau Radiopharmazie - Stark- und Schwachstromanlagen</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -1771,7 +1783,7 @@
     
     <span class="score score--low" title="Relevanz-Score">0</span>
   </div>
-  <div class="card__title"><a href="https://uni-koeln.de/" target="_blank" rel="noopener">Universität zu Köln - BL-Einheiten für Startchancen-Programm</a></div>
+  <div class="card__title"><a href="https://uni-koeln.de/" target="_blank" rel="noopener">Universität zu Köln - BL-Einheiten für Startchancen-Programm</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -1784,7 +1796,7 @@
     
     <span class="score score--low" title="Relevanz-Score">20</span>
   </div>
-  <div class="card__title"><a href="https://uni-koeln.de/" target="_blank" rel="noopener">UzK, div. Geb. TGA-Planung GA HOAI (KG 480)</a></div>
+  <div class="card__title"><a href="https://uni-koeln.de/" target="_blank" rel="noopener">UzK, div. Geb. TGA-Planung GA HOAI (KG 480)</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -1797,7 +1809,7 @@
     <span class="tag tag--gewerk">Bau</span>
     <span class="score score--mid" title="Relevanz-Score">50</span>
   </div>
-  <div class="card__title"><a href="https://www.bezreg-muenster.de/themen/wirtschaft-kultur-und-kommunales/vergabekammer-westfalen" target="_blank" rel="noopener">Verkehrssicherung Gesamtstrecke</a></div>
+  <div class="card__title"><a href="https://www.bezreg-muenster.de/themen/wirtschaft-kultur-und-kommunales/vergabekammer-westfalen" target="_blank" rel="noopener">Verkehrssicherung Gesamtstrecke</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -1810,7 +1822,7 @@
     
     <span class="score score--low" title="Relevanz-Score">24</span>
   </div>
-  <div class="card__title"><a href="https://www.aav-nrw.de" target="_blank" rel="noopener">Gutachterliche Leistungen</a></div>
+  <div class="card__title"><a href="https://www.aav-nrw.de" target="_blank" rel="noopener">Gutachterliche Leistungen</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -1823,7 +1835,7 @@
     
     <span class="score score--low" title="Relevanz-Score">4</span>
   </div>
-  <div class="card__title"><a href="https://www.uni-due.de/" target="_blank" rel="noopener">Hardware- und Software-Wartungsverträge der Telefonanlage</a></div>
+  <div class="card__title"><a href="https://www.uni-due.de/" target="_blank" rel="noopener">Hardware- und Software-Wartungsverträge der Telefonanlage</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -1836,7 +1848,7 @@
     
     <span class="score score--low" title="Relevanz-Score">0</span>
   </div>
-  <div class="card__title"><a href="http://www.wald-und-holz.nrw.de" target="_blank" rel="noopener">Rahmenvereinbarung über die Lieferung von Forstmarkierfarbe für den Landesbetrieb Wald und Holz Nordrhein-Westfalen</a></div>
+  <div class="card__title"><a href="http://www.wald-und-holz.nrw.de" target="_blank" rel="noopener">Rahmenvereinbarung über die Lieferung von Forstmarkierfarbe für den Landesbetrieb Wald und Holz Nordrhein-Westfalen</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -1849,7 +1861,7 @@
     <span class="tag tag--gewerk">Bau</span>
     <span class="score score--mid" title="Relevanz-Score">54</span>
   </div>
-  <div class="card__title"><a href="https://www.ruhr-uni-bochum.de" target="_blank" rel="noopener">Öffentlich-Private Partnerschaft (ÖPP) Informatik Mark 51°7</a></div>
+  <div class="card__title"><a href="https://www.ruhr-uni-bochum.de" target="_blank" rel="noopener">Öffentlich-Private Partnerschaft (ÖPP) Informatik Mark 51°7</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -1862,7 +1874,7 @@
     
     <span class="score score--low" title="Relevanz-Score">0</span>
   </div>
-  <div class="card__title"><a href="https://www.bezreg-muenster.de/kontaktseite-vergabekammer-westfalen" target="_blank" rel="noopener">Ausbildung AgrRef&amp;VetRef</a></div>
+  <div class="card__title"><a href="https://www.bezreg-muenster.de/kontaktseite-vergabekammer-westfalen" target="_blank" rel="noopener">Ausbildung AgrRef&amp;VetRef</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -1875,7 +1887,7 @@
     
     <span class="score score--low" title="Relevanz-Score">24</span>
   </div>
-  <div class="card__title"><a href="https://www.evergabe.nrw.de/VMPSatellite/notice/CXS7Y51YTUTYBBL5/documents" target="_blank" rel="noopener">Schadstoffgutachten i. Z. der Gebäudeabbrüche a. d. B 239.1 Bad Salzufl.</a></div>
+  <div class="card__title"><a href="https://www.evergabe.nrw.de/VMPSatellite/notice/CXS7Y51YTUTYBBL5/documents" target="_blank" rel="noopener">Schadstoffgutachten i. Z. der Gebäudeabbrüche a. d. B 239.1 Bad Salzufl.</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -1888,7 +1900,7 @@
     
     <span class="score score--low" title="Relevanz-Score">20</span>
   </div>
-  <div class="card__title"><a href="https://uni-koeln.de/" target="_blank" rel="noopener">Universität zu Köln - Lesesaaltische, Doppel- und Einzeltische</a></div>
+  <div class="card__title"><a href="https://uni-koeln.de/" target="_blank" rel="noopener">Universität zu Köln - Lesesaaltische, Doppel- und Einzeltische</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -1901,7 +1913,7 @@
     <span class="tag tag--gewerk">Bau</span>
     <span class="score score--high" title="Relevanz-Score">70</span>
   </div>
-  <div class="card__title"><a href="http://www.strassen.nrw.de" target="_blank" rel="noopener">Innenausbau BA 1</a></div>
+  <div class="card__title"><a href="http://www.strassen.nrw.de" target="_blank" rel="noopener">Innenausbau BA 1</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -1914,7 +1926,7 @@
     
     <span class="score score--low" title="Relevanz-Score">4</span>
   </div>
-  <div class="card__title"><a href="https://www.evergabe.nrw.de/VMPSatellite/notice/CXS9YYDYTQYVG1K5/documents" target="_blank" rel="noopener">Veranstaltungstechnik Full Service</a></div>
+  <div class="card__title"><a href="https://www.evergabe.nrw.de/VMPSatellite/notice/CXS9YYDYTQYVG1K5/documents" target="_blank" rel="noopener">Veranstaltungstechnik Full Service</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -1927,7 +1939,7 @@
     
     <span class="score score--low" title="Relevanz-Score">0</span>
   </div>
-  <div class="card__title"><a href="https://www.bezreg-muenster.de/de/wirtschaft_finanzen_kommunalaufsicht/vergabekammer_westfalen/index.html" target="_blank" rel="noopener">Verpflegungsleistungen bei Einsätzen aus besonderem Anlass und Übungen für die Polizei NRW</a></div>
+  <div class="card__title"><a href="https://www.bezreg-muenster.de/de/wirtschaft_finanzen_kommunalaufsicht/vergabekammer_westfalen/index.html" target="_blank" rel="noopener">Verpflegungsleistungen bei Einsätzen aus besonderem Anlass und Übungen für die Polizei NRW</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -1940,7 +1952,7 @@
     
     <span class="score score--low" title="Relevanz-Score">24</span>
   </div>
-  <div class="card__title"><a href="https://www.ruhr-uni-bochum.de/de" target="_blank" rel="noopener">RV Schließanlage</a></div>
+  <div class="card__title"><a href="https://www.ruhr-uni-bochum.de/de" target="_blank" rel="noopener">RV Schließanlage</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -1953,7 +1965,7 @@
     
     <span class="score score--low" title="Relevanz-Score">4</span>
   </div>
-  <div class="card__title"><a href="https://www.evergabe.nrw.de/VMPSatellite/notice/CXS7YDVYTGC6SEQS/documents" target="_blank" rel="noopener">Facility-Management ZUEn</a></div>
+  <div class="card__title"><a href="https://www.evergabe.nrw.de/VMPSatellite/notice/CXS7YDVYTGC6SEQS/documents" target="_blank" rel="noopener">Facility-Management ZUEn</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -1966,7 +1978,7 @@
     <span class="tag tag--gewerk">Bau</span>
     <span class="score score--mid" title="Relevanz-Score">60</span>
   </div>
-  <div class="card__title"><a href="https://www.strassen.nrw.de" target="_blank" rel="noopener">L 539 zw. AS Meinerzhagen und Hösinghausen, Deckensanierung und Anlage eines G/R</a></div>
+  <div class="card__title"><a href="https://www.strassen.nrw.de" target="_blank" rel="noopener">L 539 zw. AS Meinerzhagen und Hösinghausen, Deckensanierung und Anlage eines G/R</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -1979,7 +1991,7 @@
     
     <span class="score score--low" title="Relevanz-Score">4</span>
   </div>
-  <div class="card__title"><a href="https://www.fh-swf.de" target="_blank" rel="noopener">Unterhalts- und Glas- und Rahmenreinigung</a></div>
+  <div class="card__title"><a href="https://www.fh-swf.de" target="_blank" rel="noopener">Unterhalts- und Glas- und Rahmenreinigung</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -1992,7 +2004,7 @@
     
     <span class="score score--low" title="Relevanz-Score">0</span>
   </div>
-  <div class="card__title"><a href="https://www.evergabe.nrw.de/VMPSatellite/notice/CXS7Y51YT7B3246Q/documents" target="_blank" rel="noopener">Rahmenvertrag zur Beseitigung von Ölverunreinigungen auf Verkehrsflächen im Kreis Steinfurt</a></div>
+  <div class="card__title"><a href="https://www.evergabe.nrw.de/VMPSatellite/notice/CXS7Y51YT7B3246Q/documents" target="_blank" rel="noopener">Rahmenvertrag zur Beseitigung von Ölverunreinigungen auf Verkehrsflächen im Kreis Steinfurt</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -2005,7 +2017,7 @@
     
     <span class="score score--low" title="Relevanz-Score">0</span>
   </div>
-  <div class="card__title"><a href="https://www.evergabe.nrw.de/VMPSatellite/notice/CXS7Y51YT7BXAZW8/documents" target="_blank" rel="noopener">Rahmenvertrag zur Beseitigung von Ölverunreinigungen auf Verkehrsflächen im Kreis Borken</a></div>
+  <div class="card__title"><a href="https://www.evergabe.nrw.de/VMPSatellite/notice/CXS7Y51YT7BXAZW8/documents" target="_blank" rel="noopener">Rahmenvertrag zur Beseitigung von Ölverunreinigungen auf Verkehrsflächen im Kreis Borken</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -2018,7 +2030,7 @@
     
     <span class="score score--low" title="Relevanz-Score">30</span>
   </div>
-  <div class="card__title"><a href="https://www.evergabe.nrw.de/VMPSatellite/notice/CXS7Y51YTQQXD3PA/documents" target="_blank" rel="noopener">Objekt-, Tragwerksplanung und Rückbau</a></div>
+  <div class="card__title"><a href="https://www.evergabe.nrw.de/VMPSatellite/notice/CXS7Y51YTQQXD3PA/documents" target="_blank" rel="noopener">Objekt-, Tragwerksplanung und Rückbau</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -2031,7 +2043,7 @@
     <span class="tag tag--gewerk">Bau</span>
     <span class="score score--low" title="Relevanz-Score">20</span>
   </div>
-  <div class="card__title"><a href="https://www.evergabe.nrw.de/VMPSatellite/notice/CXS7Y51YTGE29CYQ/documents" target="_blank" rel="noopener">L708 Meinerzhage/Windebruch, zwischen KP L707/708 und OD Windebruch, Listertalsperrenradweg G/R, Geotechnik</a></div>
+  <div class="card__title"><a href="https://www.evergabe.nrw.de/VMPSatellite/notice/CXS7Y51YTGE29CYQ/documents" target="_blank" rel="noopener">L708 Meinerzhage/Windebruch, zwischen KP L707/708 und OD Windebruch, Listertalsperrenradweg G/R, Geotechnik</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -2044,7 +2056,7 @@
     <span class="tag tag--gewerk">Tiefbau</span>
     <span class="score score--low" title="Relevanz-Score">10</span>
   </div>
-  <div class="card__title"><a href="http://www.strassen.nrw.de" target="_blank" rel="noopener">Geräte 2026 Straßen NRW</a></div>
+  <div class="card__title"><a href="http://www.strassen.nrw.de" target="_blank" rel="noopener">Geräte 2026 Straßen NRW</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -2057,7 +2069,7 @@
     <span class="tag tag--gewerk">Tiefbau</span>
     <span class="score score--mid" title="Relevanz-Score">50</span>
   </div>
-  <div class="card__title"><a href="https://www.bezreg-koeln.nrw.de/themen/wirtschaft-und-kultur/vergabekammer-rheinland" target="_blank" rel="noopener">L124 Köln, Hochstraße und Streckenzug, Ersatzneubau; Baugrundgutachten</a></div>
+  <div class="card__title"><a href="https://www.bezreg-koeln.nrw.de/themen/wirtschaft-und-kultur/vergabekammer-rheinland" target="_blank" rel="noopener">L124 Köln, Hochstraße und Streckenzug, Ersatzneubau; Baugrundgutachten</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -2070,7 +2082,7 @@
     <span class="tag tag--gewerk">Bau</span>
     <span class="score score--mid" title="Relevanz-Score">62</span>
   </div>
-  <div class="card__title"><a href="https://www.w-hs.de" target="_blank" rel="noopener">H2SOLLAB</a></div>
+  <div class="card__title"><a href="https://www.w-hs.de" target="_blank" rel="noopener">H2SOLLAB</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -2083,7 +2095,7 @@
     <span class="tag tag--gewerk">Bau</span>
     <span class="score score--high" title="Relevanz-Score">70</span>
   </div>
-  <div class="card__title"><a href="https://www.strassen.nrw.de" target="_blank" rel="noopener">Ersatzneubauten L353 &amp; L402 DB Langenfeld, L 353 Langenfeld DB-BW 4807 587</a></div>
+  <div class="card__title"><a href="https://www.strassen.nrw.de" target="_blank" rel="noopener">Ersatzneubauten L353 &amp; L402 DB Langenfeld, L 353 Langenfeld DB-BW 4807 587</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -2096,7 +2108,7 @@
     <span class="tag tag--gewerk">Bau</span>
     <span class="score score--low" title="Relevanz-Score">30</span>
   </div>
-  <div class="card__title"><a href="https://www.evergabe.nrw.de/VMPSatellite/notice/CXS7Y51YT7MT6ZR3/documents" target="_blank" rel="noopener">Bauüberwachung Bahn</a></div>
+  <div class="card__title"><a href="https://www.evergabe.nrw.de/VMPSatellite/notice/CXS7Y51YT7MT6ZR3/documents" target="_blank" rel="noopener">Bauüberwachung Bahn</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -2109,7 +2121,7 @@
     
     <span class="score score--low" title="Relevanz-Score">0</span>
   </div>
-  <div class="card__title"><a href="https://www.w-hs.de" target="_blank" rel="noopener">WLAN Router</a></div>
+  <div class="card__title"><a href="https://www.w-hs.de" target="_blank" rel="noopener">WLAN Router</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -2122,7 +2134,7 @@
     <span class="tag tag--gewerk">Tiefbau</span>
     <span class="score score--low" title="Relevanz-Score">10</span>
   </div>
-  <div class="card__title"><a href="https://www.bezreg-muenster.de/themen/wirtschaft-kultur-und-kommunales/vergabekammer-westfalen" target="_blank" rel="noopener">Fahrzeuge 2026  Straßen NRW</a></div>
+  <div class="card__title"><a href="https://www.bezreg-muenster.de/themen/wirtschaft-kultur-und-kommunales/vergabekammer-westfalen" target="_blank" rel="noopener">Fahrzeuge 2026  Straßen NRW</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -2135,7 +2147,7 @@
     
     <span class="score score--low" title="Relevanz-Score">20</span>
   </div>
-  <div class="card__title"><a href="https://www.evergabe.nrw.de/VMPSatellite/notice/CXS7Y51YTQL2XBV1/documents" target="_blank" rel="noopener">SM Lüdingh.; Planung Verw.-Gebäude u. Werkstatt</a></div>
+  <div class="card__title"><a href="https://www.evergabe.nrw.de/VMPSatellite/notice/CXS7Y51YTQL2XBV1/documents" target="_blank" rel="noopener">SM Lüdingh.; Planung Verw.-Gebäude u. Werkstatt</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -2148,7 +2160,7 @@
     <span class="tag tag--gewerk">Tiefbau</span>
     <span class="score score--low" title="Relevanz-Score">18</span>
   </div>
-  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Ausschreibung – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a></div>
+  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Ausschreibung – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -2161,7 +2173,7 @@
     <span class="tag tag--gewerk">Tiefbau</span>
     <span class="score score--low" title="Relevanz-Score">8</span>
   </div>
-  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Auftrag – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a></div>
+  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Auftrag – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -2174,7 +2186,7 @@
     <span class="tag tag--gewerk">Tiefbau</span>
     <span class="score score--low" title="Relevanz-Score">22</span>
   </div>
-  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Ausschreibung – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a></div>
+  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Ausschreibung – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -2187,7 +2199,7 @@
     
     <span class="score score--low" title="Relevanz-Score">12</span>
   </div>
-  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Auftrag – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a></div>
+  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Auftrag – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -2200,7 +2212,7 @@
     <span class="tag tag--gewerk">Tiefbau</span>
     <span class="score score--low" title="Relevanz-Score">26</span>
   </div>
-  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Ausschreibung – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a></div>
+  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Ausschreibung – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -2213,7 +2225,7 @@
     <span class="tag tag--gewerk">Tiefbau</span>
     <span class="score score--low" title="Relevanz-Score">16</span>
   </div>
-  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Auftrag – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a></div>
+  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Auftrag – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -2226,7 +2238,7 @@
     <span class="tag tag--gewerk">Tiefbau</span>
     <span class="score score--low" title="Relevanz-Score">18</span>
   </div>
-  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Ausschreibung – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a></div>
+  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Ausschreibung – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -2239,7 +2251,7 @@
     <span class="tag tag--gewerk">Tiefbau</span>
     <span class="score score--low" title="Relevanz-Score">16</span>
   </div>
-  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Auftrag – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a></div>
+  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Auftrag – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -2252,7 +2264,7 @@
     <span class="tag tag--gewerk">hochbau</span>
     <span class="score score--low" title="Relevanz-Score">30</span>
   </div>
-  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Ausschreibung – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a></div>
+  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Ausschreibung – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -2265,7 +2277,7 @@
     <span class="tag tag--gewerk">hochbau</span>
     <span class="score score--low" title="Relevanz-Score">30</span>
   </div>
-  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Sanierung – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a></div>
+  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Sanierung – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -2278,7 +2290,7 @@
     <span class="tag tag--gewerk">hochbau</span>
     <span class="score score--low" title="Relevanz-Score">20</span>
   </div>
-  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Auftrag – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a></div>
+  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Auftrag – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -2291,7 +2303,7 @@
     <span class="tag tag--gewerk">Trockenbau</span>
     <span class="score score--low" title="Relevanz-Score">26</span>
   </div>
-  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Ausschreibung – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a></div>
+  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Ausschreibung – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -2304,7 +2316,7 @@
     <span class="tag tag--gewerk">Trockenbau</span>
     <span class="score score--low" title="Relevanz-Score">22</span>
   </div>
-  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Sanierung – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a></div>
+  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Sanierung – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -2317,7 +2329,7 @@
     <span class="tag tag--gewerk">Sanitär</span>
     <span class="score score--low" title="Relevanz-Score">4</span>
   </div>
-  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Auftrag – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a></div>
+  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Auftrag – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -2330,7 +2342,7 @@
     <span class="tag tag--gewerk">Tiefbau</span>
     <span class="score score--low" title="Relevanz-Score">18</span>
   </div>
-  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Ausschreibung – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a></div>
+  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Ausschreibung – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -2343,7 +2355,7 @@
     <span class="tag tag--gewerk">Tiefbau</span>
     <span class="score score--low" title="Relevanz-Score">4</span>
   </div>
-  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Auftrag – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a></div>
+  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Auftrag – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -2356,7 +2368,7 @@
     <span class="tag tag--gewerk">Tiefbau</span>
     <span class="score score--low" title="Relevanz-Score">22</span>
   </div>
-  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Ausschreibung – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a></div>
+  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Ausschreibung – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -2369,7 +2381,7 @@
     
     <span class="score score--low" title="Relevanz-Score">18</span>
   </div>
-  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Vergabe – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a></div>
+  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Vergabe – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -2382,7 +2394,7 @@
     
     <span class="score score--low" title="Relevanz-Score">14</span>
   </div>
-  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Vergabe – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a></div>
+  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Vergabe – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -2395,7 +2407,7 @@
     
     <span class="score score--low" title="Relevanz-Score">14</span>
   </div>
-  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Vergabe – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a></div>
+  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Vergabe – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -2408,7 +2420,7 @@
     
     <span class="score score--low" title="Relevanz-Score">14</span>
   </div>
-  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Vergabe – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a></div>
+  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Vergabe – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -2421,7 +2433,7 @@
     
     <span class="score score--low" title="Relevanz-Score">14</span>
   </div>
-  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Vergabe – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a></div>
+  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Vergabe – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -2434,7 +2446,7 @@
     
     <span class="score score--low" title="Relevanz-Score">4</span>
   </div>
-  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Auftrag – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a></div>
+  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Auftrag – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -2447,7 +2459,7 @@
     
     <span class="score score--low" title="Relevanz-Score">18</span>
   </div>
-  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Ausschreibung – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a></div>
+  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Ausschreibung – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -2460,7 +2472,7 @@
     
     <span class="score score--low" title="Relevanz-Score">8</span>
   </div>
-  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Auftrag – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a></div>
+  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Auftrag – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -2473,7 +2485,7 @@
     
     <span class="score score--low" title="Relevanz-Score">18</span>
   </div>
-  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Ausschreibung – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a></div>
+  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Ausschreibung – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -2486,7 +2498,7 @@
     
     <span class="score score--low" title="Relevanz-Score">22</span>
   </div>
-  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Vergabe – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a></div>
+  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Vergabe – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -2499,7 +2511,7 @@
     
     <span class="score score--low" title="Relevanz-Score">18</span>
   </div>
-  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Vergabe – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a></div>
+  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Vergabe – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -2512,7 +2524,7 @@
     
     <span class="score score--low" title="Relevanz-Score">18</span>
   </div>
-  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Vergabe – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a></div>
+  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Vergabe – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -2525,7 +2537,7 @@
     
     <span class="score score--low" title="Relevanz-Score">14</span>
   </div>
-  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Vergabe – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a></div>
+  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Vergabe – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -2538,7 +2550,7 @@
     
     <span class="score score--low" title="Relevanz-Score">14</span>
   </div>
-  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Vergabe – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a></div>
+  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Vergabe – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -2551,7 +2563,7 @@
     
     <span class="score score--low" title="Relevanz-Score">4</span>
   </div>
-  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Auftrag – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a></div>
+  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Auftrag – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -2564,7 +2576,7 @@
     <span class="tag tag--gewerk">Tiefbau</span>
     <span class="score score--low" title="Relevanz-Score">26</span>
   </div>
-  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Ausschreibung – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a></div>
+  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Ausschreibung – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -2577,7 +2589,7 @@
     <span class="tag tag--gewerk">Tiefbau</span>
     <span class="score score--low" title="Relevanz-Score">16</span>
   </div>
-  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Auftrag – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a></div>
+  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Auftrag – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -2590,7 +2602,7 @@
     
     <span class="score score--low" title="Relevanz-Score">18</span>
   </div>
-  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Ausschreibung – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a></div>
+  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Ausschreibung – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -2603,7 +2615,7 @@
     <span class="tag tag--gewerk">Tiefbau</span>
     <span class="score score--low" title="Relevanz-Score">22</span>
   </div>
-  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Vergabe – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a></div>
+  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Vergabe – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -2616,7 +2628,7 @@
     <span class="tag tag--gewerk">Tiefbau</span>
     <span class="score score--low" title="Relevanz-Score">18</span>
   </div>
-  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Vergabe – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a></div>
+  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Vergabe – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -2629,7 +2641,7 @@
     <span class="tag tag--gewerk">Tiefbau</span>
     <span class="score score--low" title="Relevanz-Score">18</span>
   </div>
-  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Vergabe – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a></div>
+  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Vergabe – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -2642,7 +2654,7 @@
     
     <span class="score score--low" title="Relevanz-Score">14</span>
   </div>
-  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Vergabe – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a></div>
+  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Vergabe – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -2655,7 +2667,7 @@
     
     <span class="score score--low" title="Relevanz-Score">14</span>
   </div>
-  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Vergabe – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a></div>
+  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Vergabe – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -2668,7 +2680,7 @@
     
     <span class="score score--low" title="Relevanz-Score">4</span>
   </div>
-  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Auftrag – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a></div>
+  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Auftrag – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -2681,7 +2693,7 @@
     <span class="tag tag--gewerk">Tiefbau</span>
     <span class="score score--low" title="Relevanz-Score">18</span>
   </div>
-  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Ausschreibung – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a></div>
+  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Ausschreibung – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -2694,7 +2706,7 @@
     <span class="tag tag--gewerk">Tiefbau</span>
     <span class="score score--low" title="Relevanz-Score">4</span>
   </div>
-  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Auftrag – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a></div>
+  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Auftrag – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -2707,7 +2719,7 @@
     
     <span class="score score--low" title="Relevanz-Score">18</span>
   </div>
-  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Ausschreibung – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a></div>
+  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Ausschreibung – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -2720,7 +2732,7 @@
     <span class="tag tag--gewerk">Tiefbau</span>
     <span class="score score--low" title="Relevanz-Score">22</span>
   </div>
-  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Vergabe – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a></div>
+  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Vergabe – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -2733,7 +2745,7 @@
     <span class="tag tag--gewerk">Tiefbau</span>
     <span class="score score--low" title="Relevanz-Score">18</span>
   </div>
-  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Vergabe – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a></div>
+  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Vergabe – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -2746,7 +2758,7 @@
     <span class="tag tag--gewerk">Tiefbau</span>
     <span class="score score--low" title="Relevanz-Score">18</span>
   </div>
-  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Vergabe – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a></div>
+  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Vergabe – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -2759,7 +2771,7 @@
     
     <span class="score score--low" title="Relevanz-Score">14</span>
   </div>
-  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Vergabe – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a></div>
+  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Vergabe – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -2772,7 +2784,7 @@
     
     <span class="score score--low" title="Relevanz-Score">14</span>
   </div>
-  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Vergabe – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a></div>
+  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Vergabe – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -2785,7 +2797,7 @@
     
     <span class="score score--low" title="Relevanz-Score">4</span>
   </div>
-  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Auftrag – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a></div>
+  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Auftrag – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -2798,7 +2810,7 @@
     <span class="tag tag--gewerk">hochbau</span>
     <span class="score score--low" title="Relevanz-Score">30</span>
   </div>
-  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Ausschreibung – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a></div>
+  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Ausschreibung – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -2811,7 +2823,7 @@
     <span class="tag tag--gewerk">hochbau</span>
     <span class="score score--low" title="Relevanz-Score">30</span>
   </div>
-  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Sanierung – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a></div>
+  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Sanierung – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -2824,7 +2836,7 @@
     <span class="tag tag--gewerk">hochbau</span>
     <span class="score score--low" title="Relevanz-Score">20</span>
   </div>
-  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Auftrag – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a></div>
+  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Auftrag – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -2837,7 +2849,7 @@
     
     <span class="score score--low" title="Relevanz-Score">18</span>
   </div>
-  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Ausschreibung – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a></div>
+  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Ausschreibung – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -2850,7 +2862,7 @@
     <span class="tag tag--gewerk">hochbau</span>
     <span class="score score--low" title="Relevanz-Score">30</span>
   </div>
-  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Vergabe – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a></div>
+  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Vergabe – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -2863,7 +2875,7 @@
     <span class="tag tag--gewerk">hochbau</span>
     <span class="score score--low" title="Relevanz-Score">26</span>
   </div>
-  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Sanierung – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a></div>
+  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Sanierung – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -2876,7 +2888,7 @@
     
     <span class="score score--low" title="Relevanz-Score">14</span>
   </div>
-  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Vergabe – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a></div>
+  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Vergabe – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -2889,7 +2901,7 @@
     
     <span class="score score--low" title="Relevanz-Score">14</span>
   </div>
-  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Vergabe – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a></div>
+  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Vergabe – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -2902,7 +2914,7 @@
     
     <span class="score score--low" title="Relevanz-Score">14</span>
   </div>
-  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Vergabe – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a></div>
+  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Vergabe – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -2915,7 +2927,7 @@
     
     <span class="score score--low" title="Relevanz-Score">14</span>
   </div>
-  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Vergabe – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a></div>
+  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Vergabe – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -2928,7 +2940,7 @@
     
     <span class="score score--low" title="Relevanz-Score">4</span>
   </div>
-  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Auftrag – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a></div>
+  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Auftrag – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -2941,7 +2953,7 @@
     <span class="tag tag--gewerk">Trockenbau</span>
     <span class="score score--low" title="Relevanz-Score">22</span>
   </div>
-  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Ausschreibung – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a></div>
+  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Ausschreibung – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -2954,7 +2966,7 @@
     <span class="tag tag--gewerk">Trockenbau</span>
     <span class="score score--low" title="Relevanz-Score">22</span>
   </div>
-  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Sanierung – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a></div>
+  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Sanierung – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -2967,7 +2979,7 @@
     <span class="tag tag--gewerk">Trockenbau</span>
     <span class="score score--low" title="Relevanz-Score">12</span>
   </div>
-  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Auftrag – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a></div>
+  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Auftrag – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -2980,7 +2992,7 @@
     
     <span class="score score--low" title="Relevanz-Score">18</span>
   </div>
-  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Ausschreibung – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a></div>
+  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Ausschreibung – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -2993,7 +3005,7 @@
     <span class="tag tag--gewerk">Trockenbau</span>
     <span class="score score--low" title="Relevanz-Score">26</span>
   </div>
-  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Vergabe – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a></div>
+  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Vergabe – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -3006,7 +3018,7 @@
     <span class="tag tag--gewerk">Trockenbau</span>
     <span class="score score--low" title="Relevanz-Score">22</span>
   </div>
-  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Sanierung – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a></div>
+  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Sanierung – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -3019,7 +3031,7 @@
     <span class="tag tag--gewerk">Trockenbau</span>
     <span class="score score--low" title="Relevanz-Score">22</span>
   </div>
-  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Vergabe – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a></div>
+  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Vergabe – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -3032,7 +3044,7 @@
     
     <span class="score score--low" title="Relevanz-Score">14</span>
   </div>
-  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Vergabe – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a></div>
+  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Vergabe – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -3045,7 +3057,7 @@
     
     <span class="score score--low" title="Relevanz-Score">14</span>
   </div>
-  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Vergabe – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a></div>
+  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Vergabe – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -3058,7 +3070,7 @@
     
     <span class="score score--low" title="Relevanz-Score">14</span>
   </div>
-  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Vergabe – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a></div>
+  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Vergabe – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -3071,7 +3083,7 @@
     
     <span class="score score--low" title="Relevanz-Score">4</span>
   </div>
-  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Auftrag – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a></div>
+  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Auftrag – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
@@ -3084,7 +3096,7 @@
     
     <span class="score score--low" title="Relevanz-Score">0</span>
   </div>
-  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Auftrag – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a></div>
+  <div class="card__title"><a href="https://www.leverkusen.de/service/veroeffentlichungen/amtsblatt/Amtsblatt-Nr.14-vom-25.03.2026.pdf" target="_blank" rel="noopener">Auftrag – Amtsblatt Nr. 14 vom 25.03.2026PDF-Datei193,95 kB</a><span class="badge-new">NEU</span></div>
   <div class="card__date">25. Mar 2026</div>
 </div>
 
