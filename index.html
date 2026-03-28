@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bauprojekt Intelligence</title>
+  <link rel="stylesheet" href="assets/styles.css">
+  <style>
+    /* Loader - inline damit sofort sichtbar */
+    #initial-loader {
+      position: fixed;
+      inset: 0;
+      background: #0d1b2a;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 1.5rem;
+      z-index: 9999;
+      transition: opacity 0.3s ease;
+    }
+    #initial-loader.hidden { opacity: 0; pointer-events: none; }
+    .loader-spinner {
+      width: 48px; height: 48px;
+      border: 3px solid #1e3a5f;
+      border-top-color: #22d3ee;
+      border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+    }
+    .loader-text { color: #94a3b8; font-family: system-ui, sans-serif; font-size: 0.9rem; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+  </style>
+</head>
+<body>
+
+<div id="initial-loader">
+  <div class="loader-spinner"></div>
+  <div class="loader-text">Lade Daten…</div>
+</div>
+
+<div id="app" style="display:none">
+
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="header-brand">
+        <span class="brand-icon">🏗️</span>
+        <span class="brand-name">Bauprojekt Intelligence</span>
+      </div>
+      <nav class="site-nav">
+        <button class="nav-tab active" data-view="projects">Projekte</button>
+        <button class="nav-tab" data-view="runs">Run-Report</button>
+      </nav>
+      <div class="header-meta" id="header-meta"></div>
+    </div>
+  </header>
+
+  <!-- Projekte View -->
+  <main class="view" id="view-projects">
+    <div class="filters-bar">
+      <div class="search-wrap">
+        <input type="search" id="search-input" placeholder="Projekte suchen…" autocomplete="off">
+        <span class="search-icon">🔍</span>
+      </div>
+      <div class="filter-group">
+        <select id="filter-region">
+          <option value="">Alle Regionen</option>
+        </select>
+        <select id="filter-source">
+          <option value="">Alle Quellen</option>
+        </select>
+        <select id="filter-sort">
+          <option value="date">Neueste zuerst</option>
+          <option value="score">Relevanz (hoch→niedrig)</option>
+        </select>
+      </div>
+      <div class="gewerk-pills" id="gewerk-pills"></div>
+    </div>
+
+    <div class="results-bar">
+      <span id="results-count"></span>
+      <button class="reset-btn" id="reset-filters" title="Filter zurücksetzen">✕ Reset</button>
+    </div>
+
+    <div class="project-grid" id="project-grid"></div>
+
+    <div class="pagination" id="pagination"></div>
+  </main>
+
+  <!-- Run-Report View -->
+  <main class="view hidden" id="view-runs">
+    <div class="runs-header">
+      <h2>Run-Report</h2>
+      <p class="runs-subtitle">Letzte 30 Collector-Läufe</p>
+    </div>
+    <div class="runs-grid" id="runs-grid"></div>
+  </main>
+
+</div>
+
+<script src="assets/app.js"></script>
+</body>
+</html>
